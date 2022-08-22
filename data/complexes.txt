@@ -1,0 +1,626 @@
+Complex	HGNC ID (gene)	Approved symbol	Approved name	Previous symbols	Aliases	Chromosome
+ASAP	HGNC:17066	ACIN1	apoptotic chromatin condensation inducer 1	ACINUS	KIAA0670,fSAP152	14q11.2
+ASAP	HGNC:10080	RNPS1	RNA binding protein with serine rich domain 1			16p13.3
+ASAP	HGNC:10530	SAP18	Sin3A associated protein 18		SAP18p,2HOR0202,MGC27131	13q12.11
+ATAC	HGNC:24523	ZZZ3	zinc finger ZZ-type containing 3		DKFZP564I052,ATAC1	1p31.1
+ATAC	HGNC:15904	KAT14	lysine acetyltransferase 14	CSRP2BP	CRP2BP,dJ717M23.1,PRO1194,ATAC2	20p11.23
+ATAC	HGNC:25156	SGF29	SAGA complex associated factor 29	CCDC101	FLJ32446,TDRD29	16p11.2
+ATAC	HGNC:3017	DR1	down-regulator of transcription 1		NC2-BETA,NC2B,NCB2	1p22.1
+ATAC	HGNC:4839	HCFC1	host cell factor C1	HFC1,MRX3	HCF-1,HCF1,CFF,VCAF,MGC70925,PPP1R89	Xq28
+ATAC	HGNC:4201	KAT2A	lysine acetyltransferase 2A	GCN5L2	GCN5,PCAF-b	17q21.2
+ATAC	HGNC:8638	KAT2B	lysine acetyltransferase 2B	PCAF	P/CAF,GCN5,GCN5L	3p24.3
+ATAC	HGNC:20427	MBIP	MAP3K12 binding inhibitory protein 1			14q13.3
+ATAC	HGNC:13546	POLE3	DNA polymerase epsilon 3, accessory subunit		CHRAC17,Ybl1,p17,CHARAC17,CHRAC2	9q32
+ATAC	HGNC:11531	TADA2A	transcriptional adaptor 2A	TADA2L	ADA2,hADA2,ADA2A	17q12
+ATAC	HGNC:19422	TADA3	transcriptional adaptor 3	TADA3L	FLJ20221,FLJ21329,ADA3,hADA3,NGG1	3p25.3
+ATAC	HGNC:12757	WDR5	WD repeat domain 5		SWD3,CFAP89	9q34.2
+ATAC	HGNC:25489	YEATS2	YEATS domain containing 2		FLJ10201,FLJ12841,FLJ13308,KIAA1197	3q27.1
+BAF	HGNC:132	ACTB	actin beta			7p22.1
+BAF	HGNC:24124	ACTL6A	actin like 6A		Actl6,BAF53A,Arp4,Baf53a,INO80K	3q26.33
+BAF	HGNC:160	ACTL6B	actin like 6B	ACTL6	BAF53B	7q22.1
+BAF	HGNC:11110	ARID1A	AT-rich interaction domain 1A	C1orf4,SMARCF1	B120,P270,C10rf4,BAF250,BAF250a	1p36.11
+BAF	HGNC:18040	ARID1B	AT-rich interaction domain 1B		KIAA1235,ELD/OSA1,p250R,BAF250b,DAN15,6A3-5	6q25.3
+BAF	HGNC:1004	BCL7A	BAF chromatin remodeling complex subunit BCL7A	BCL7		12q24.31
+BAF	HGNC:1005	BCL7B	BAF chromatin remodeling complex subunit BCL7B			7q11.23
+BAF	HGNC:1006	BCL7C	BAF chromatin remodeling complex subunit BCL7C			16p11.2
+BAF	HGNC:13221	BCL11A	BAF chromatin remodeling complex subunit BCL11A	EVI9	BCL11A-XL,BCL11A-L,BCL11A-S,CTIP1,HBFQTL5,ZNF856	2p16.1
+BAF	HGNC:13222	BCL11B	BAF chromatin remodeling complex subunit BCL11B	ZNF856B	CTIP-2,CTIP2,hRIT1-alpha	14q32.2
+BAF	HGNC:25818	BRD9	bromodomain containing 9		FLJ13441	5p15.33
+BAF	HGNC:20225	DPF1	double PHD fingers 1		neuro-d4,NEUD4,BAF45b	19q13.2
+BAF	HGNC:9964	DPF2	double PHD fingers 2	REQ	ubi-d4,BAF45d	11q13.1
+BAF	HGNC:17427	DPF3	double PHD fingers 3		cer-d4,Cerd4,FLJ14079,BAF45c	14q24.2
+BAF	HGNC:18250	PHF10	PHD finger protein 10		FLJ10975,XAP135,BAF45a	6q27
+BAF	HGNC:11098	SMARCA2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2	SNF2L2	BAF190,hSNF2a,hBRM,Sth1p,SNF2LA,BRM,SNF2,SWI2	9p24.3
+BAF	HGNC:11100	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4	SNF2L4	hSNF2b,BRG1,BAF190,SNF2,SWI2,SNF2-BETA,SNF2LB,FLJ39786	19p13.2
+BAF	HGNC:11103	SMARCB1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1	SNF5L1	BAF47,Ini1,Snr1,hSNFS,Sfh1p,RDT,PPP1R144,SNF5	22q11.23
+BAF	HGNC:11104	SMARCC1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin subfamily c member 1		BAF155,SRG3,Rsc8,CRACC1	3p21.31
+BAF	HGNC:11105	SMARCC2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin subfamily c member 2		BAF170,Rsc8,CRACC2	12q13.2
+BAF	HGNC:11106	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1		BAF60A,Rsc6p,CRACD1	12q13.12
+BAF	HGNC:11107	SMARCD2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2		BAF60B,Rsc6p,CRACD2,PRO2451	17q23.3
+BAF	HGNC:11108	SMARCD3	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3		BAF60C,Rsc6p,CRACD3	7q36.1
+BAF	HGNC:11109	SMARCE1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1		BAF57	17q21.2
+BAF	HGNC:11340	SS18	SS18 subunit of BAF chromatin remodeling complex	SSXT	SYT	18q11.2
+BAF	HGNC:15592	SS18L1	SS18L1 subunit of BAF chromatin remodeling complex		KIAA0693,CREST	20q13.33
+BAG6	HGNC:13919	BAG6	BAG cochaperone 6	BAT3	G3,D6S52E,Scythe	6p21.33
+BAG6	HGNC:21690	GET4	guided entry of tail-anchored proteins factor 4	C7orf20	CGI-20,H_NH1244M04.5,CEE,TRC35	7p22.3
+BAG6	HGNC:12505	UBL4A	ubiquitin like 4A	UBL4	GDX,DXS254E,GET5,MDY2,TMA24	Xq28
+BRCA1A	HGNC:25008	BABAM1	BRISC and BRCA1 A complex member 1	C19orf62	FLJ20571,HSPC142,NBA1,MERIT40	19p13.11
+BRCA1A	HGNC:1100	BRCA1	BRCA1 DNA repair associated		RNF53,BRCC1,PPP1R53,FANCS	17q21.31
+BRCA1A	HGNC:24185	BRCC3	BRCA1/BRCA2-containing complex subunit 3	CXorf53	C6.1A,BRCC36	Xq28
+BRCA1A	HGNC:1106	BABAM2	BRISC and BRCA1 A complex member 2	BRE	BRCC45,BRCC4	2p23.2
+BRCA1A	HGNC:25829	ABRAXAS1	abraxas 1, BRCA1 A complex subunit	CCDC98,FAM175A	FLJ13614,ABRA1,ABRAXAS	4q21.23
+BRCA1A	HGNC:30298	UIMC1	ubiquitin interaction motif containing 1		RAP80	5q35.2
+BRCA1B	HGNC:952	BARD1	BRCA1 associated RING domain 1			2q35
+BRCA1B	HGNC:1100	BRCA1	BRCA1 DNA repair associated		RNF53,BRCC1,PPP1R53,FANCS	17q21.31
+BRCA1B	HGNC:20473	BRIP1	BRCA1 interacting protein C-terminal helicase 1		OF,BACH1,FANCJ	17q23.2
+BRCA1B	HGNC:17008	TOPBP1	DNA topoisomerase II binding protein 1		KIAA0259,TOP2BP1,Dpb11	3q22.1
+BRCA1C	HGNC:1100	BRCA1	BRCA1 DNA repair associated		RNF53,BRCC1,PPP1R53,FANCS	17q21.31
+BRCA1C	HGNC:7230	MRE11	MRE11 homolog, double strand break repair nuclease	MRE11A	ATLD	11q21
+BRCA1C	HGNC:7652	NBN	nibrin	NBS,NBS1	ATV,AT-V2,AT-V1	8q21.3
+BRCA1C	HGNC:9816	RAD50	RAD50 double strand break repair protein		hRad50,RAD50-2	5q31.1
+BRCA1C	HGNC:9891	RBBP8	RB binding protein 8, endonuclease	SCKL2	CtIP,RIM,COM1	18q11.2
+CHRAC	HGNC:960	BAZ1A	bromodomain adjacent to zinc finger domain 1A		hACF1,ACF1,WALp1,WCRF180	14q13.1-q13.2
+CHRAC	HGNC:13544	CHRAC1	chromatin accessibility complex subunit 1		CHRAC15,YCL1	8q24.3
+CHRAC	HGNC:13546	POLE3	DNA polymerase epsilon 3, accessory subunit		CHRAC17,Ybl1,p17,CHARAC17,CHRAC2	9q32
+CHRAC	HGNC:11101	SMARCA5	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5		hSNF2H,hISWI,ISWI	4q31.21
+Cohesin	HGNC:9811	RAD21	RAD21 cohesin complex component		KIAA0078,hHR21,SCC1	8q24.11
+Cohesin	HGNC:16879	REC8	REC8 meiotic recombination protein	REC8L1	Rec8p,kleisin-alpha	14q12
+Cohesin	HGNC:11111	SMC1A	structural maintenance of chromosomes 1A	SMC1L1	DXS423E,KIAA0178,SB1.8,Smcb	Xp11.22
+Cohesin	HGNC:11112	SMC1B	structural maintenance of chromosomes 1B	SMC1L2	bK268H5	22q13.31
+Cohesin	HGNC:2468	SMC3	structural maintenance of chromosomes 3	CSPG6	HCAP,BAM,SMC3L1,bamacan	10q25.2
+Cohesin	HGNC:11354	STAG1	stromal antigen 1		SA-1,SCC3A,SA1	3q22.3
+Cohesin	HGNC:11355	STAG2	stromal antigen 2		SA-2,SCC3B,SA2	Xq25
+Cohesin	HGNC:11356	STAG3	stromal antigen 3			7q22.1
+COPI	HGNC:2230	COPA	COPI coat complex subunit alpha		HEP-COP	1q23.2
+COPI	HGNC:2231	COPB1	COPI coat complex subunit beta 1	COPB		11p15.2
+COPI	HGNC:2232	COPB2	COPI coat complex subunit beta 2		beta'-COP,betaprime-COP	3q23
+COPI	HGNC:649	ARCN1	archain 1	COPD		11q23.3
+COPI	HGNC:2234	COPE	COPI coat complex subunit epsilon		epsilon-COP	19p13.11
+COPI	HGNC:2236	COPG1	COPI coat complex subunit gamma 1	COPG		3q21.3
+COPI	HGNC:2237	COPG2	COPI coat complex subunit gamma 2		2-COP	7q32.2
+COPI	HGNC:2243	COPZ1	COPI coat complex subunit zeta 1	COPZ	CGI-120	12q13.13
+COPI	HGNC:19356	COPZ2	COPI coat complex subunit zeta 2		MGC23008	17q21.32
+Crumbs	HGNC:2343	CRB1	crumbs cell polarity complex component 1	RP12	LCA8	1q31.3
+Crumbs	HGNC:18688	CRB2	crumbs cell polarity complex component 2		FLJ38464,FLJ16786	9q33.3
+Crumbs	HGNC:20237	CRB3	crumbs cell polarity complex component 3		MGC17303	19p13.3
+Crumbs	HGNC:17787	LIN7A	lin-7 homolog A, crumbs cell polarity complex component		MALS-1,TIP-33,LIN-7A,VELI1	12q21.31
+Crumbs	HGNC:17788	LIN7B	lin-7 homolog B, crumbs cell polarity complex component		MALS-2,LIN-7B,VELI2	19q13.33
+Crumbs	HGNC:17789	LIN7C	lin-7 homolog C, crumbs cell polarity complex component		MALS-3,LIN-7C,LIN-7-C,VELI3,FLJ11215	11p14.1
+Crumbs	HGNC:7208	MPDZ	multiple PDZ domain crumbs cell polarity complex component		MUPP1	9p23
+Crumbs	HGNC:18669	MPP5	membrane palmitoylated protein 5		PALS1,FLJ12615	14q23.3
+Crumbs	HGNC:28881	PATJ	PATJ crumbs cell polarity complex component	INADL	Cipp	1p31.3
+CST	HGNC:26169	CTC1	CST telomere replication complex component 1	C17orf68	FLJ22170,AAF132	17p13.1
+CST	HGNC:26200	STN1	STN1 subunit of CST complex	OBFC1	FLJ22559,bA541N10.2	10q24.33
+CST	HGNC:37242	TEN1	TEN1 subunit of CST complex	C17orf106	FLJ39785	17q25.1
+DECID	HGNC:16719	DHX34	DExH-box helicase 34	DDX34	KIAA0134	19q13.32
+DECID	HGNC:30045	SMG1	SMG1 nonsense mediated mRNA decay associated PI3K related kinase		LIP,KIAA0421,ATX	16p12.3
+DECID	HGNC:9962	UPF1	UPF1 RNA helicase and ATPase	RENT1	HUPF1,KIAA0221,NORF1,pNORF1,smg-2	19p13.11
+DECID	HGNC:17854	UPF2	UPF2 regulator of nonsense mediated mRNA decay		RENT2,DKFZP434D222,KIAA1408,smg-3	10p14
+DECID	HGNC:20439	UPF3B	UPF3B regulator of nonsense mediated mRNA decay	MRX62,UPF3BP1,UPF3BP2,UPF3BP3	RENT3B,UPF3X,HUPF3B,MRX82	Xq24
+DISC	HGNC:1509	CASP8	caspase 8		MCH5,MACH,FLICE,Casp-8	2q33.1
+DISC	HGNC:1500	CASP10	caspase 10		MCH4,FLICE-2	2q33.1
+DISC	HGNC:1876	CFLAR	CASP8 and FADD like apoptosis regulator	CASP8AP1	CASH,Casper,CLARP,FLAME,FLIP,I-FLICE,MRIT,c-FLIP,cFLIP	2q33.1
+DISC	HGNC:3573	FADD	Fas associated via death domain		MORT1,GIG3	11q13.3
+DISC	HGNC:11920	FAS	Fas cell surface death receptor	FAS1,APT1,TNFRSF6	CD95,APO-1	10q23.31
+DISC	HGNC:11936	FASLG	Fas ligand	APT1LG1,TNFSF6	FasL,CD178	1q24.3
+ELO	HGNC:11620	ELOA	elongin A	TCEB3	SIII,TCEB3A	1p36.11
+ELO	HGNC:30771	ELOA2	elongin A2	TCEB3B	HsT832,TCEB3L	18q21.1
+ELO	HGNC:11619	ELOB	elongin B	TCEB2	SIII	16p13.3
+ELO	HGNC:11617	ELOC	elongin C	TCEB1	SIII	8q21.11
+EMSY	HGNC:18071	EMSY	EMSY transcriptional repressor, BRCA2 interacting	C11orf30		11q13.5
+EMSY	HGNC:29941	GATAD1	GATA zinc finger domain containing 1		ODAG,RG083M05.2,FLJ22489	7q21.2
+EMSY	HGNC:4852	HDAC1	histone deacetylase 1	RPD3L1	HD1,GON-10,KDAC1	1p35.2-p35.1
+EMSY	HGNC:4853	HDAC2	histone deacetylase 2		RPD3,YAF1,KDAC2	6q21
+EMSY	HGNC:9886	KDM5A	lysine demethylase 5A	RBBP2,JARID1A		12p13.33
+EMSY	HGNC:16989	MORF4L1	mortality factor 4 like 1		MRG15,MORFRG15,HsT17725,Eaf3,MEAF3	15q25.1
+EMSY	HGNC:16849	MORF4L2	mortality factor 4 like 2		KIAA0026,MRGX	Xq22.2
+EMSY	HGNC:20816	PHF12	PHD finger protein 12		PF1,KIAA1523	17q11.2
+EMSY	HGNC:9887	RBBP4	RB binding protein 4, chromatin remodeling factor		RbAp48,NURF55,lin-53	1p35.1
+EMSY	HGNC:9890	RBBP7	RB binding protein 7, chromatin remodeling factor		RbAp46	Xp22.2
+EMSY	HGNC:19353	SIN3A	SIN3 transcription regulator family member A		KIAA0700,DKFZP434K2235	15q24.2
+EMSY	HGNC:19354	SIN3B	SIN3 transcription regulator family member B		KIAA0700	19p13.11
+eNoSC	HGNC:29030	RRP8	ribosomal RNA processing 8	KIAA0409	NML	11p15.4
+eNoSC	HGNC:14929	SIRT1	sirtuin 1		SIR2L1	10q21.3
+eNoSC	HGNC:11479	SUV39H1	suppressor of variegation 3-9 homolog 1	SUV39H	KMT1A	Xp11.23
+FA	HGNC:3582	FANCA	FA complementation group A	FACA,FANCH	FAA,FA-H,FAH	16q24.3
+FA	HGNC:3583	FANCB	FA complementation group B		FAB,FLJ34064,FAAP95	Xp22.2
+FA	HGNC:3584	FANCC	FA complementation group C	FACC	FAC,FA3	9q22.32
+FA	HGNC:3586	FANCE	FA complementation group E	FACE	FAE	6p21.31
+FA	HGNC:3587	FANCF	FA complementation group F		FAF	11p14.3
+FA	HGNC:3588	FANCG	FA complementation group G	XRCC9	FAG	9p13.3
+FA	HGNC:20748	FANCL	FA complementation group L	PHF9	FLJ10335,FAAP43,Pog	2p16.1
+FA	HGNC:23168	FANCM	FA complementation group M	KIAA1596	FAAP250	14q21.2
+GATOR	HGNC:18423	DEPDC5	DEP domain containing 5, GATOR1 subcomplex subunit			22q12.2-q12.3
+GATOR	HGNC:24969	NPRL2	NPR2 like, GATOR1 complex subunit	TUSC4		3p21.31
+GATOR	HGNC:14124	NPRL3	NPR3 like, GATOR1 complex subunit	C16orf35		16p13.3
+GATOR	HGNC:21905	MIOS	meiosis regulator for oocyte development			7p21.3
+GATOR	HGNC:10697	SEC13	SEC13 homolog, nuclear pore and COPII coat complex component	D3S1231E,SEC13L1		3p25.3
+GATOR	HGNC:30379	SEH1L	SEH1 like nucleoporin			18p11.21
+GATOR	HGNC:20852	WDR24	WD repeat domain 24	C16orf21		16p13.3
+GATOR	HGNC:25706	WDR59	WD repeat domain 59			16q23.1
+GBAF	HGNC:132	ACTB	actin beta			7p22.1
+GBAF	HGNC:24124	ACTL6A	actin like 6A		Actl6,BAF53A,Arp4,Baf53a,INO80K	3q26.33
+GBAF	HGNC:160	ACTL6B	actin like 6B	ACTL6	BAF53B	7q22.1
+GBAF	HGNC:4332	BICRA	BRD4 interacting chromatin remodeling complex associated protein	GLTSCR1		19q13.33
+GBAF	HGNC:21111	BICRAL	BRD4 interacting chromatin remodeling complex associated protein like	KIAA0240,GLTSCR1L		6p21.1
+GBAF	HGNC:25818	BRD9	bromodomain containing 9		FLJ13441	5p15.33
+GBAF	HGNC:11098	SMARCA2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2	SNF2L2	BAF190,hSNF2a,hBRM,Sth1p,SNF2LA,BRM,SNF2,SWI2	9p24.3
+GBAF	HGNC:11100	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4	SNF2L4	hSNF2b,BRG1,BAF190,SNF2,SWI2,SNF2-BETA,SNF2LB,FLJ39786	19p13.2
+GBAF	HGNC:11104	SMARCC1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin subfamily c member 1		BAF155,SRG3,Rsc8,CRACC1	3p21.31
+GBAF	HGNC:11106	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1		BAF60A,Rsc6p,CRACD1	12q13.12
+GBAF	HGNC:11107	SMARCD2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2		BAF60B,Rsc6p,CRACD2,PRO2451	17q23.3
+GBAF	HGNC:11108	SMARCD3	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3		BAF60C,Rsc6p,CRACD3	7q36.1
+GBAF	HGNC:11340	SS18	SS18 subunit of BAF chromatin remodeling complex	SSXT	SYT	18q11.2
+IKK	HGNC:1974	CHUK	component of inhibitor of nuclear factor kappa B kinase complex	TCF16	IKK1,IKK-alpha,IkBKA,NFKBIKA,IKKA	10q24.31
+IKK	HGNC:5960	IKBKB	inhibitor of nuclear factor kappa B kinase subunit beta		IKK2,NFKBIKB,IKK-beta,IKKB	8p11.21
+IKK	HGNC:5961	IKBKG	inhibitor of nuclear factor kappa B kinase regulatory subunit gamma	IP2,IP1	IKK-gamma,NEMO,Fip3p,FIP-3,FIP3,ZC2HC9	Xq28
+INHAT	HGNC:13233	ANP32A	acidic nuclear phosphoprotein 32 family member A	C15orf1	LANP,PP32,I1PP2A,PHAPI,MAPM,mapmodulin	15q23
+INHAT	HGNC:10760	SET	SET nuclear proto-oncogene		PHAPII,2PP2A,IPP2A2,TAF-IBETA,IGAAD,TAF-I	9q34.11
+INO80	HGNC:26956	INO80	INO80 complex ATPase subunit	INOC1	KIAA1259,hINO80,INO80A	15q15.1
+INO80	HGNC:13324	INO80B	INO80 complex subunit B	HMGA1L4,ZNHIT4	HMGIYL4,PAPA-1,hIes2,PAP-1BP,IES2	2p13.1
+INO80	HGNC:26994	INO80C	INO80 complex subunit C	C18orf37	FLJ38183,hIes6,IES6	18q12.2
+INO80	HGNC:25997	INO80D	INO80 complex subunit D		FLJ20309	2q33.3
+INO80	HGNC:26905	INO80E	INO80 complex subunit E	CCDC95	FLJ90652	16p11.2
+INO80	HGNC:13630	TFPT	TCF3 fusion partner		FB1,amida,INO80F	19q13.42
+INO80	HGNC:7802	NFRKB	nuclear factor related to kappaB binding protein		DKFZp547B2013,INO80G	11q24.3
+INO80	HGNC:10474	RUVBL1	RuvB like AAA ATPase 1		TIP49,NMP238,RVB1,TIP49a,Pontin52,ECP54,TIH1,Rvb1,INO80H	3q21.3
+INO80	HGNC:10475	RUVBL2	RuvB like AAA ATPase 2		RVB2,TIP48,TIP49b,Reptin52,ECP51,TIH2,INO80J,Rvb2	19q13.33
+INO80	HGNC:24124	ACTL6A	actin like 6A		Actl6,BAF53A,Arp4,Baf53a,INO80K	3q26.33
+INO80	HGNC:14671	ACTR5	actin related protein 5		FLJ12785,Arp5,INO80M	20q11.23
+INO80	HGNC:14672	ACTR8	actin related protein 8		INO80N,ARP8	3p21.1
+INO80	HGNC:6960	MCRS1	microspherule protein 1		ICP22BP,MSP58,P78,MCRS2,INO80Q	12q13.12
+INO80	HGNC:19678	UCHL5	ubiquitin C-terminal hydrolase L5		UCH37,CGI-70,INO80R	1q31.2
+INO80	HGNC:12856	YY1	YY1 transcription factor		NF-E1,DELTA,UCRBP,YIN-YANG-1,INO80S	14q32.2
+KEOPS	HGNC:20356	GON7	GON7 subunit of KEOPS complex	C14orf142		14q32.12
+KEOPS	HGNC:26058	LAGE3	L antigen family member 3		ITBA2,CVG5,DXS9951E,DXS9879E,ESO3,Pcc1	Xq28
+KEOPS	HGNC:18028	OSGEP	O-sialoglycoprotein endopeptidase		PRSMG1,GCPL1,OSGEP1,KAE1,TCS3	14q11.2
+KEOPS	HGNC:24259	TPRKB	TP53RK binding protein		CGI-121,CGI121	2p13.1
+KEOPS	HGNC:16197	TP53RK	TP53 regulating kinase	C20orf64	dJ101A2.2,prpk,Nori-2p,BUD32,TPRKB	20q13.12
+KICSTOR	HGNC:26517	C12orf66	chromosome 12 open reading frame 66		FLJ32549	12q14.2
+KICSTOR	HGNC:30879	ITFG2	integrin alpha FG-GAP repeat containing 2	FGGAP1	MDS028	12p13.33
+KICSTOR	HGNC:6404	KPTN	kaptin, actin binding protein		2.00E+04	19q13.32
+KICSTOR	HGNC:29040	SZT2	SZT2 subunit of KICSTOR complex	C1orf84,KIAA0467	FLJ10387,SZT2B,RP11-506B15.1,FLJ34502,SZT2A	1p34.2
+MED	HGNC:1581	CCNC	cyclin C		CycC	6q16.2
+MED	HGNC:1779	CDK8	cyclin dependent kinase 8		K35	13q12.13
+MED	HGNC:19338	CDK19	cyclin dependent kinase 19	CDK11,CDC2L6	KIAA1028,bA346C16.3	6q21
+MED	HGNC:9234	MED1	mediator complex subunit 1	TRIP2,PPARGBP,PPARBP	PBP,TRAP220,RB18A,DRIP230,CRSP200,CRSP1	17q12
+MED	HGNC:23074	MED29	mediator complex subunit 29	IXL	DKFZp434H247,MED2	19q13.2
+MED	HGNC:2377	MED27	mediator complex subunit 27	CRSP8	TRAP37,CRSP34,MED3	9q34.13
+MED	HGNC:17903	MED4	mediator complex subunit 4	VDRIP	HSPC126,DRIP36,TRAP36	13q14.2
+MED	HGNC:22963	MED24	mediator complex subunit 24	THRAP4,CRSP4	TRAP100,KIAA0130,DRIP100,CRSP100,MED5	17q21.1
+MED	HGNC:19970	MED6	mediator complex subunit 6		NY-REN-28	14q24.2
+MED	HGNC:2378	MED7	mediator complex subunit 7	CRSP9	CRSP33	5q33.3
+MED	HGNC:19971	MED8	mediator complex subunit 8		MGC17544,MGC19641,ARC32	1p34.2
+MED	HGNC:25487	MED9	mediator complex subunit 9		FLJ10193,MED25	17p11.2
+MED	HGNC:28760	MED10	mediator complex subunit 10		TRG20,L6,MGC5309,NUT2	5p15.31
+MED	HGNC:32687	MED11	mediator complex subunit 11		HSPC296,MGC88387	17p13.2
+MED	HGNC:11957	MED12	mediator complex subunit 12	TNRC11,FGS1	CAGH45,HOPA,OPA1,TRAP230,KIAA0192,OKS,ARC240,Kto	Xq13.1
+MED	HGNC:16050	MED12L	mediator complex subunit 12L		KIAA1635,TNRC11L,TRALPUSH,TRALP	3q25.1
+MED	HGNC:22474	MED13	mediator complex subunit 13	THRAP1	KIAA0593,TRAP240	17q23.2
+MED	HGNC:22962	MED13L	mediator complex subunit 13L	THRAP2	KIAA1025,TRAP240L	12q24.21
+MED	HGNC:2370	MED14	mediator complex subunit 14	CXorf4,CRSP2	EXLM1,CRSP150,TRAP170,RGR1,CSRP	Xp11.4
+MED	HGNC:14248	MED15	mediator complex subunit 15	TNRC7,PCQAP	TIG-1,CAG7A,Arc105	22q11.21
+MED	HGNC:17556	MED16	mediator complex subunit 16	THRAP5	DRIP92,TRAP95	19p13.3
+MED	HGNC:2375	MED17	mediator complex subunit 17	CRSP6	CRSP77,TRAP80,DRIP80,SRB4	11q21
+MED	HGNC:25944	MED18	mediator complex subunit 18		FLJ20045,p28b,SRB5	1p35.3
+MED	HGNC:29600	MED19	mediator complex subunit 19		LCMR1	11q12.1
+MED	HGNC:16840	MED20	mediator complex subunit 20	TRFP	DKFZp586D2223,PRO0213,SRB2	6p21.1
+MED	HGNC:11473	MED21	mediator complex subunit 21	SURB7	SRB7	12p11.23
+MED	HGNC:11477	MED22	mediator complex subunit 22	SURF5	Med24,SRB6	9q34.2
+MED	HGNC:2372	MED23	mediator complex subunit 23	CRSP3,MRT18	CRSP130,DRIP130,Sur2	6q23.2
+MED	HGNC:28845	MED25	mediator complex subunit 25		ARC92,ACID1,TCBAP0758,DKFZp434K0512	19q13.33
+MED	HGNC:2376	MED26	mediator complex subunit 26	CRSP7	CRSP70	19p13.11
+MED	HGNC:24628	MED28	mediator complex subunit 28		EG1,DKFZP434N185,magicin	4p15.32
+MED	HGNC:23032	MED30	mediator complex subunit 30	THRAP6	TRAP25	8q24.11
+MED	HGNC:24260	MED31	mediator complex subunit 31		CGI-125,Soh1	17p13.1
+MKS	HGNC:7121	MKS1	MKS transition zone complex subunit 1	MKS	FLJ20345,POC12,BBS13	17q22
+MKS	HGNC:28396	TMEM67	transmembrane protein 67	MKS3	MGC26979,JBTS6,NPHP11	8q22.1
+MKS	HGNC:29021	CEP290	centrosomal protein 290		KIAA0373,FLJ13615,3H11Ag,rd16,NPHP6,JBTS5,SLSN6,LCA10,MKS4,BBS14,CT87,POC3	12q21.32
+MKS	HGNC:29253	CC2D2A	coiled-coil and C2 domain containing 2A		KIAA1345,MKS6,JBTS9	4p15.32
+MKS	HGNC:25774	TCTN2	tectonic family member 2	C12orf38	FLJ12975,TECT2,MKS8,JBTS24	12q24.31
+MKS	HGNC:24123	B9D1	B9 domain containing 1		B9,EPPB9,MKS9,MKSR-1	17p11.2
+MKS	HGNC:28636	B9D2	B9 domain containing 2		MGC4093,MKS10,MKSR-2	19q13.2
+MKS	HGNC:37234	TMEM231	transmembrane protein 231		FLJ22167,ALYE870,PRO1886,JBTS20,MKS11	16q23.1
+MKS	HGNC:26113	TCTN1	tectonic family member 1		FLJ21127,TECT1,JBTS13	12q24.11
+MRN	HGNC:7230	MRE11	MRE11 homolog, double strand break repair nuclease	MRE11A	ATLD	11q21
+MRN	HGNC:7652	NBN	nibrin	NBS,NBS1	ATV,AT-V2,AT-V1	8q21.3
+MRN	HGNC:9816	RAD50	RAD50 double strand break repair protein		hRad50,RAD50-2	5q31.1
+MRN	HGNC:26157	WDCP	WD repeat and coiled coil containing	C2orf44	FLJ21945,MMAP	2p23.3
+MSL	HGNC:17933	KAT8	lysine acetyltransferase 8	MYST1	MOF,FLJ14040,hMOF,ZC2HC8	16p11.2
+MSL	HGNC:27905	MSL1	MSL complex subunit 1		hMSL1,MSL-1,DKFZp686P24239	17q21.1
+MSL	HGNC:25544	MSL2	MSL complex subunit 2	RNF184,MSL2L1	FLJ10546,KIAA1585,msl-2	3q22.3
+MSL	HGNC:7370	MSL3	MSL complex subunit 3	MSL3L1		Xp22.2
+MTOR1	HGNC:28426	AKT1S1	AKT1 substrate 1		PRAS40,MGC2865,Lobe	19q13.33
+MTOR1	HGNC:24825	MLST8	MTOR associated protein, LST8 homolog		Lst8,Pop3,GBL,GbetaL	16p13.3
+MTOR1	HGNC:3942	MTOR	mechanistic target of rapamycin kinase	FRAP,FRAP2,FRAP1	RAFT1,RAPT1,FLJ44809	1p36.22
+MTOR1	HGNC:30287	RPTOR	regulatory associated protein of MTOR complex 1		KOG1,Mip1,KIAA1303,raptor	17q25.3
+MTOR2	HGNC:18752	MAPKAP1	MAPK associated protein 1		MGC2745,SIN1,MIP1	9q33.3
+MTOR2	HGNC:24825	MLST8	MTOR associated protein, LST8 homolog		Lst8,Pop3,GBL,GbetaL	16p13.3
+MTOR2	HGNC:3942	MTOR	mechanistic target of rapamycin kinase	FRAP,FRAP2,FRAP1	RAFT1,RAPT1,FLJ44809	1p36.22
+MTOR2	HGNC:31682	PRR5	proline rich 5		PP610,FLJ20185k,Protor-1	22q13.31
+MTOR2	HGNC:28611	RICTOR	RPTOR independent companion of MTOR complex 2		MGC39830,AVO3,PIA,KIAA1999	5p13.1
+NCoR/SMRT	HGNC:4550	GPS2	G protein pathway suppressor 2			17p13.1
+NCoR/SMRT	HGNC:4854	HDAC3	histone deacetylase 3		RPD3,HD3,RPD3-2,KDAC3	5q31.3
+NCoR/SMRT	HGNC:7672	NCOR1	nuclear receptor corepressor 1		N-CoR,hCIT529I10,TRAC1,hN-CoR,KIAA1047,MGC104216,PPP1R109	17p12-p11.2
+NCoR/SMRT	HGNC:7673	NCOR2	nuclear receptor corepressor 2		SMRT,SMRTE,TRAC-1,CTG26,TNRC14	12q24.31
+NCoR/SMRT	HGNC:11585	TBL1X	transducin beta like 1 X-linked	TBL1	EBI	Xp22.31-p22.2
+NCoR/SMRT	HGNC:29529	TBL1XR1	TBL1X receptor 1		IRA1,FLJ12894,TBLR1,C21,DC42	3q26.32
+NDC80	HGNC:16909	NDC80	NDC80 kinetochore complex component	KNTC2	HEC,HEC1,hsNDC80,TID3	18p11.32
+NDC80	HGNC:14621	NUF2	NUF2 component of NDC80 kinetochore complex	CDCA1	NUF2R,CT106	1q23.3
+NDC80	HGNC:26913	SPC24	SPC24 component of NDC80 kinetochore complex	SPBC24	FLJ90806	19p13.2
+NDC80	HGNC:24031	SPC25	SPC25 component of NDC80 kinetochore complex	SPBC25	MGC22228,AD024	2q31.1
+NFKB	HGNC:7794	NFKB1	nuclear factor kappa B subunit 1		KBF1,p105,NFKB-p50,p50,NF-kappaB,NFkappaB,NF-kB1	4q24
+NFKB	HGNC:7795	NFKB2	nuclear factor kappa B subunit 2		LYT-10,p52,p105,NF-kB2,p49/p100	10q24.32
+NFKB	HGNC:9954	REL	REL proto-oncogene, NF-kB subunit		I-Rel,c-Rel	2p16.1
+NFKB	HGNC:9955	RELA	RELA proto-oncogene, NF-kB subunit	NFKB3	p65	11q13.1
+NFKB	HGNC:9956	RELB	RELB proto-oncogene, NF-kB subunit		REL-B	19q13.32
+NOLA	HGNC:14264	GAR1	GAR1 ribonucleoprotein	NOLA1		4q25
+NOLA	HGNC:14377	NHP2	NHP2 ribonucleoprotein	NOLA2	FLJ20479	5q35.3
+NOLA	HGNC:14378	NOP10	NOP10 ribonucleoprotein	NOLA3	NOP10P,MGC70651	15q14
+NOLA	HGNC:2890	DKC1	dyskerin pseudouridine synthase 1	DKC	XAP101,dyskerin,NAP57,NOLA4,Cbf5	Xq28
+NSL	HGNC:4839	HCFC1	host cell factor C1	HFC1,MRX3	HCF-1,HCF1,CFF,VCAF,MGC70925,PPP1R89	Xq28
+NSL	HGNC:24565	KANSL1	KAT8 regulatory NSL complex subunit 1	KIAA1267	DKFZP727C091,MSL1v1,CENP-36,NSL1	17q21.31
+NSL	HGNC:26024	KANSL2	KAT8 regulatory NSL complex subunit 2	C12orf41	FLJ20436,NSL2	12q13.11
+NSL	HGNC:25473	KANSL3	KAT8 regulatory NSL complex subunit 3	KIAA1310	FLJ10081,Rcd1,NSL3	2q11.2
+NSL	HGNC:17933	KAT8	lysine acetyltransferase 8	MYST1	MOF,FLJ14040,hMOF,ZC2HC8	16p11.2
+NSL	HGNC:6960	MCRS1	microspherule protein 1		ICP22BP,MSP58,P78,MCRS2,INO80Q	12q13.12
+NSL	HGNC:8127	OGT	O-linked N-acetylglucosamine (GlcNAc) transferase		O-GLCNAC,HRNT1,MGC22921,FLJ23071,OGT1	Xq13.1
+NSL	HGNC:16098	PHF20	PHD finger protein 20	C20orf104	dJ1121G12.1,TDRD20A	20q11.22-q11.23
+NSL	HGNC:12757	WDR5	WD repeat domain 5		SWD3,CFAP89	9q34.2
+NURD	HGNC:1918	CHD3	chromodomain helicase DNA binding protein 3		Mi-2a,ZFH,Mi2-ALPHA	17p13.1
+NURD	HGNC:1919	CHD4	chromodomain helicase DNA binding protein 4		Mi-2b,Mi2-BETA	12p13.31
+NURD	HGNC:16816	CHD5	chromodomain helicase DNA binding protein 5			1p36.31
+NURD	HGNC:4852	HDAC1	histone deacetylase 1	RPD3L1	HD1,GON-10,KDAC1	1p35.2-p35.1
+NURD	HGNC:4853	HDAC2	histone deacetylase 2		RPD3,YAF1,KDAC2	6q21
+NURD	HGNC:6917	MBD2	methyl-CpG binding domain protein 2			18q21.2
+NURD	HGNC:6918	MBD3	methyl-CpG binding domain protein 3			19p13.3
+NURD	HGNC:7410	MTA1	metastasis associated 1			14q32.33
+NURD	HGNC:7411	MTA2	metastasis associated 1 family member 2	MTA1L1	MTA1-L1	11q12.3
+NURD	HGNC:23784	MTA3	metastasis associated 1 family member 3		KIAA1266	2p21
+NURD	HGNC:9887	RBBP4	RB binding protein 4, chromatin remodeling factor		RbAp48,NURF55,lin-53	1p35.1
+NURD	HGNC:9890	RBBP7	RB binding protein 7, chromatin remodeling factor		RbAp46	Xp22.2
+NURF	HGNC:3581	BPTF	bromodomain PHD finger transcription factor	FALZ	FAC1,NURF301	17q24.2
+NURF	HGNC:9887	RBBP4	RB binding protein 4, chromatin remodeling factor		RbAp48,NURF55,lin-53	1p35.1
+NURF	HGNC:9890	RBBP7	RB binding protein 7, chromatin remodeling factor		RbAp46	Xp22.2
+NURF	HGNC:11097	SMARCA1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 1	SNF2L1,SNF2L	SNF2LB,NURF140,ISWI,SWI,hSNF2L	Xq25-q26.1
+ORC	HGNC:8487	ORC1	origin recognition complex subunit 1	ORC1L	HSORC1,PARC1	1p32.3
+ORC	HGNC:8488	ORC2	origin recognition complex subunit 2	ORC2L		2q33.1
+ORC	HGNC:8489	ORC3	origin recognition complex subunit 3	ORC3L	IMAGE50150,LATHEO	6q15
+ORC	HGNC:8490	ORC4	origin recognition complex subunit 4	ORC4L	HsORC4,Orc4p	2q23.1
+ORC	HGNC:8491	ORC5	origin recognition complex subunit 5	ORC5L	Orc5p,ORC5T,PPP1R117	7q22.1-q22.2
+ORC	HGNC:17151	ORC6	origin recognition complex subunit 6	ORC6L		16q11.2
+PAF1	HGNC:16783	CDC73	cell division cycle 73	C1orf28,HRPT2,HRPT1	parafibromin,FIHP	1q31.2
+PAF1	HGNC:16850	CTR9	CTR9 homolog, Paf1/RNA polymerase II complex component	SH2BP1	KIAA0155,TSBP,p150TSP	11p15.4
+PAF1	HGNC:30401	LEO1	LEO1 homolog, Paf1/RNA polymerase II complex component			15q21.2
+PAF1	HGNC:25459	PAF1	PAF1 homolog, Paf1/RNA polymerase II complex component		PD2,F23149_1,FLJ11123	19q13.2
+PAF1	HGNC:28996	RTF1	RTF1 homolog, Paf1/RNA polymerase II complex component	KIAA0252		15q15.1
+PAF1	HGNC:30300	WDR61	WD repeat domain 61		REC14	15q25.1
+PBAF	HGNC:132	ACTB	actin beta			7p22.1
+PBAF	HGNC:24124	ACTL6A	actin like 6A		Actl6,BAF53A,Arp4,Baf53a,INO80K	3q26.33
+PBAF	HGNC:160	ACTL6B	actin like 6B	ACTL6	BAF53B	7q22.1
+PBAF	HGNC:18037	ARID2	AT-rich interaction domain 2		KIAA1557,DKFZp686G052,FLJ30619,BAF200	12q12
+PBAF	HGNC:14310	BRD7	bromodomain containing 7		CELTIX1,BP75	16q12.1
+PBAF	HGNC:30064	PBRM1	polybromo 1		BAF180,PB1	3p21.1
+PBAF	HGNC:18250	PHF10	PHD finger protein 10		FLJ10975,XAP135,BAF45a	6q27
+PBAF	HGNC:11100	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4	SNF2L4	hSNF2b,BRG1,BAF190,SNF2,SWI2,SNF2-BETA,SNF2LB,FLJ39786	19p13.2
+PBAF	HGNC:11103	SMARCB1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1	SNF5L1	BAF47,Ini1,Snr1,hSNFS,Sfh1p,RDT,PPP1R144,SNF5	22q11.23
+PBAF	HGNC:11104	SMARCC1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin subfamily c member 1		BAF155,SRG3,Rsc8,CRACC1	3p21.31
+PBAF	HGNC:11105	SMARCC2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin subfamily c member 2		BAF170,Rsc8,CRACC2	12q13.2
+PBAF	HGNC:11106	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1		BAF60A,Rsc6p,CRACD1	12q13.12
+PBAF	HGNC:11107	SMARCD2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2		BAF60B,Rsc6p,CRACD2,PRO2451	17q23.3
+PBAF	HGNC:11108	SMARCD3	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3		BAF60C,Rsc6p,CRACD3	7q36.1
+PBAF	HGNC:11109	SMARCE1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1		BAF57	17q21.2
+PDH	HGNC:2896	DLAT	dihydrolipoamide S-acetyltransferase	DLTA	PDC-E2,E2	11q23.1
+PDH	HGNC:2898	DLD	dihydrolipoamide dehydrogenase	LAD,GCSL	DLDH,E3,OGDC-E3	7q31.1
+PDH	HGNC:8806	PDHA1	pyruvate dehydrogenase E1 subunit alpha 1	PDHA		Xp22.12
+PDH	HGNC:8808	PDHB	pyruvate dehydrogenase E1 subunit beta		PDHE1B	3p14.3
+PDH	HGNC:21350	PDHX	pyruvate dehydrogenase complex component X		E3BP,proX,PDX1,OPDX,DLDBP	11p13
+PIK4KA	HGNC:24587	FAM126A	family with sequence similarity 126 member A		DRCTNNB1A,HCC,HYCC1,hyccin	7p15.3
+PIK4KA	HGNC:28593	FAM126B	family with sequence similarity 126 member B		MGC39518,HYCC2	2q33.1
+PIK4KA	HGNC:8983	PI4KA	phosphatidylinositol 4-kinase alpha	PIK4CA	PI4K-ALPHA,pi4K230	22q11.21
+PIK4KA	HGNC:19750	TTC7A	tetratricopeptide repeat domain 7A	TTC7	KIAA1140	2p21
+PIK4KA	HGNC:19858	TTC7B	tetratricopeptide repeat domain 7B	TTC7L1		14q32.11
+PIK3C3	HGNC:19962	ATG14	autophagy related 14	KIAA0831	ATG14L	14q22.3
+PIK3C3	HGNC:1034	BECN1	beclin 1		ATG6,VPS30	17q21.31
+PIK3C3	HGNC:19692	NRBF2	nuclear receptor binding factor 2		DKFZp564C1664,FLJ30395,COPR1,COPR2	10q21.3
+PIK3C3	HGNC:8974	PIK3C3	phosphatidylinositol 3-kinase catalytic subunit type 3		Vps34	18q12.3
+PIK3C3	HGNC:8982	PIK3R4	phosphoinositide-3-kinase regulatory subunit 4		VPS15,p150	3q22.1
+PIK3C3	HGNC:28991	RUBCN	rubicon autophagy regulator	KIAA0226	rubicon,rundataxin	3q29
+PIK3C3	HGNC:20420	RUBCNL	rubicon like autophagy enhancer	C13orf18,KIAA0226L	FLJ21562,PACER	13q14.13
+PIK3C3	HGNC:12640	UVRAG	UV radiation resistance associated		VPS38	11q13.5
+PRC2	HGNC:3188	EED	embryonic ectoderm development		WAIT-1,HEED	11q14.2
+PRC2	HGNC:3526	EZH1	enhancer of zeste 1 polycomb repressive complex 2 subunit		KIAA0388,KMT6B	17q21.2
+PRC2	HGNC:3527	EZH2	enhancer of zeste 2 polycomb repressive complex 2 subunit		EZH1,ENX-1,KMT6,KMT6A	7q36.1
+PRC2	HGNC:9887	RBBP4	RB binding protein 4, chromatin remodeling factor		RbAp48,NURF55,lin-53	1p35.1
+PRC2	HGNC:9890	RBBP7	RB binding protein 7, chromatin remodeling factor		RbAp46	Xp22.2
+PRC2	HGNC:17101	SUZ12	SUZ12 polycomb repressive complex 2 subunit		JJAZ1,KIAA0160,CHET9	17q11.2
+PRP19	HGNC:975	BCAS2	BCAS2 pre-mRNA processing factor		DAM1,SPF27,Snt309	1p13.2
+PRP19	HGNC:1743	CDC5L	cell division cycle 5 like		PCDC5RP,hCDC5,CEF1,CDC5	6p21.1
+PRP19	HGNC:15879	CTNNBL1	catenin beta like 1	C20orf33	FLJ21108,P14L,P14,NAP,NYD-SP19	20q11.23
+PRP19	HGNC:26939	CWC15	CWC15 spliceosome associated protein homolog		C11orf5,HSPC148,Cwf15,AD002	11q21
+PRP19	HGNC:9089	PLRG1	pleiotropic regulator 1		PRL1,Prp46,PRPF46,Cwc1,TANGO4	4q31.3
+PRP19	HGNC:17896	PRPF19	pre-mRNA processing factor 19	PRP19	UBOX4,NMP200,PSO4,hPSO4,SNEV	11q12.2
+PTEFB	HGNC:1596	CCNK	cyclin K		CPR4	14q32.2
+PTEFB	HGNC:1599	CCNT1	cyclin T1	HIVE1	CCNT,CYCT1	12q13.11-q13.12
+PTEFB	HGNC:1600	CCNT2	cyclin T2			2q21.3
+PTEFB	HGNC:1780	CDK9	cyclin dependent kinase 9	CDC2L4	PITALRE,C-2k,TAK	9q34.11
+PTEFB	HGNC:24953	HEXIM1	HEXIM P-TEFb complex subunit 1		CLP-1,HIS1,MAQ1,EDG1	17q21.31
+PTEFB	HGNC:28591	HEXIM2	HEXIM P-TEFb complex subunit 2		FLJ32384	17q21.31
+PTF1	HGNC:23734	PTF1A	pancreas associated transcription factor 1a		PTF1-p48,bHLHa29,p48	10p12.2
+PTF1	HGNC:5724	RBPJ	recombination signal binding protein for immunoglobulin kappa J region	IGKJRB1,RBPSUH	SUH,IGKJRB,RBPJK,KBF2,RBP-J,CBF1	4p15.2
+PTF1	HGNC:13761	RBPJL	recombination signal binding protein for immunoglobulin kappa J region like	RBPSUHL	RBP-L,SUH,SUHL	20q13.12
+R2SP	HGNC:25210	PIH1D2	PIH1 domain containing 2			11q23.1
+R2SP	HGNC:10474	RUVBL1	RuvB like AAA ATPase 1		TIP49,NMP238,RVB1,TIP49a,Pontin52,ECP54,TIH1,Rvb1,INO80H	3q21.3
+R2SP	HGNC:10475	RUVBL2	RuvB like AAA ATPase 2		RVB2,TIP48,TIP49b,Reptin52,ECP51,TIH2,INO80J,Rvb2	19q13.33
+R2SP	HGNC:11212	SPAG1	sperm associated antigen 1		SP75,FLJ32920,HSD-3.8,TPIS,CT140,CILD28	8q22.2
+R2TP	HGNC:26075	PIH1D1	PIH1 domain containing 1	NOP17	FLJ20643,Pih1,MOT48	19q13.33
+R2TP	HGNC:26151	RPAP3	RNA polymerase II associated protein 3		FLJ21908,spag,hSpagh,Tah1	12q13.11
+R2TP	HGNC:10474	RUVBL1	RuvB like AAA ATPase 1		TIP49,NMP238,RVB1,TIP49a,Pontin52,ECP54,TIH1,Rvb1,INO80H	3q21.3
+R2TP	HGNC:10475	RUVBL2	RuvB like AAA ATPase 2		RVB2,TIP48,TIP49b,Reptin52,ECP51,TIH2,INO80J,Rvb2	19q13.33
+RISC	HGNC:3263	AGO2	argonaute RISC catalytic component 2	EIF2C2,CASC7	hAGO2,Q10,LINC00980	8q24.3
+RISC	HGNC:17098	DICER1	dicer 1, ribonuclease III	MNG1	Dicer,KIAA0928,K12H4.8-LIKE,HERNA	14q32.13
+RISC	HGNC:11569	TARBP2	TARBP2 subunit of RISC loading complex		Trbp	12q13.13
+SAGA	HGNC:10560	ATXN7	ataxin 7	SCA7	OPCA3,ADCAII,SGF73	3p14.1
+SAGA	HGNC:25416	ATXN7L3	ataxin 7 like 3		DKFZp761G2113	17q21.31
+SAGA	HGNC:24449	ENY2	ENY2 transcription and export complex 2 subunit		DC6,FLJ20480,Sus1	8q23.1
+SAGA	HGNC:4201	KAT2A	lysine acetyltransferase 2A	GCN5L2	GCN5,PCAF-b	17q21.2
+SAGA	HGNC:8638	KAT2B	lysine acetyltransferase 2B	PCAF	P/CAF,GCN5,GCN5L	3p24.3
+SAGA	HGNC:25156	SGF29	SAGA complex associated factor 29	CCDC101	FLJ32446,TDRD29	16p11.2
+SAGA	HGNC:11466	SUPT3H	SPT3 homolog, SAGA and STAGA complex component		SPT3,SPT3L	6p21.1
+SAGA	HGNC:30632	SUPT7L	SPT7 like, STAGA complex subunit gamma		STAF65gamma,KIAA0764,SPT7L,STAF65	2p23.3
+SAGA	HGNC:20596	SUPT20H	SPT20 homolog, SAGA complex component	C13orf19,FAM48A	SPT20,bA421P11.4,P38IP	13q13.3
+SAGA	HGNC:30631	TADA1	transcriptional adaptor 1	TADA1L	STAF42,ADA1,hADA1,HFI1	1q24.1
+SAGA	HGNC:30781	TADA2B	transcriptional adaptor 2B		MGC21874	4p16.1
+SAGA	HGNC:19422	TADA3	transcriptional adaptor 3	TADA3L	FLJ20221,FLJ21329,ADA3,hADA3,NGG1	3p25.3
+SAGA	HGNC:17305	TAF6L	TATA-box binding protein associated factor 6 like		PAF65A	11q12.3
+SAGA	HGNC:11543	TAF10	TATA-box binding protein associated factor 10	TAF2H,TAF2A	TAFII30	11p15.4
+SAGA	HGNC:11545	TAF12	TATA-box binding protein associated factor 12	TAF2J	TAFII20	1p35.3
+SAGA	HGNC:12347	TRRAP	transformation/transcription domain associated protein		TR-AP,PAF400,Tra1	7q22.1
+SAGA	HGNC:12621	USP22	ubiquitin specific peptidase 22	USP3L	KIAA1063	17p11.2
+SCAR/WAVE	HGNC:24011	ABI2	abl interactor 2		ABI-2,AIP-1,ABI2B,AblBP3,argBPIA,SSH3BP2	2q33.2
+SCAR/WAVE	HGNC:23057	BRK1	BRICK1 subunit of SCAR/WAVE actin nucleating complex	C3orf10	MDS027,HSPC300	3p25.3
+SCAR/WAVE	HGNC:13759	CYFIP1	cytoplasmic FMR1 interacting protein 1		KIAA0068,P140SRA-1,SHYC	15q11.2
+SCAR/WAVE	HGNC:13760	CYFIP2	cytoplasmic FMR1 interacting protein 2		PIR121	5q33.3
+SCAR/WAVE	HGNC:7666	NCKAP1	NCK associated protein 1		Nap1,HEM2,NAP125	2q32.1
+SCAR/WAVE	HGNC:12732	WASF1	WASP family member 1		WAVE1,SCAR1,KIAA0269,WAVE	6q21
+SCF	HGNC:2551	CUL1	cullin 1			7q36.1
+SCF	HGNC:9928	RBX1	ring-box 1		ROC1,RNF75,BA554C12.1	22q13.2
+SCF	HGNC:10899	SKP1	S-phase kinase associated protein 1	SKP1A	EMC19,OCP2,TCEB1L,MGC34403,OCP-II,p19A	5q31.1
+Scrible	HGNC:2900	DLG1	discs large MAGUK scaffold protein 1		SAP97,SAP-97,hdlg,DLGH1,dJ1061C18.1.1	3q29
+Scrible	HGNC:6628	LLGL1	LLGL scribble cell polarity complex component 1	DLG4,LLGL,HUGL,HUGL-1	Lgl1,Mgl1	17p11.2
+Scrible	HGNC:6629	LLGL2	LLGL scribble cell polarity complex component 2		HGL,Hugl-2	17q25.1
+Scrible	HGNC:30377	SCRIB	scribble planar cell polarity protein		KIAA0147,SCRB1,Vartul	8q24.3
+SET	HGNC:13233	ANP32A	acidic nuclear phosphoprotein 32 family member A	C15orf1	LANP,PP32,I1PP2A,PHAPI,MAPM,mapmodulin	15q23
+SET	HGNC:587	APEX1	apurinic/apyrimidinic endodeoxyribonuclease 1	APEX	APE,REF1,HAP1,APX,APEN,REF-1,APE-1	14q11.2
+SET	HGNC:5000	HMGB2	high mobility group box 2	HMG2		4q34.1
+SET	HGNC:7849	NME1	NME/NM23 nucleoside diphosphate kinase 1		NM23,NM23-H1,NDPKA	17q21.33
+SET	HGNC:10760	SET	SET nuclear proto-oncogene		PHAPII,2PP2A,IPP2A2,TAF-IBETA,IGAAD,TAF-I	9q34.11
+SET	HGNC:12269	TREX1	three prime repair exonuclease 1	AGS1	DRN3	3p21.31
+SF3A	HGNC:10765	SF3A1	splicing factor 3a subunit 1		SF3a120,SAP114,PRPF21,Prp21	22q12.2
+SF3A	HGNC:10766	SF3A2	splicing factor 3a subunit 2		SF3a66,SAP62,PRPF11,Prp11	19p13.3
+SF3A	HGNC:10767	SF3A3	splicing factor 3a subunit 3		SF3a60,SAP61,PRP9,PRPF9	1p34.3
+SF3B	HGNC:18000	PHF5A	PHD finger protein 5A		MGC1346,SF3b14b,INI,bK223H9.2,Rds3,SAP14b,SF3B7	22q13.2
+SF3B	HGNC:10768	SF3B1	splicing factor 3b subunit 1		SAP155,SF3b155,PRPF10,Prp10,Hsh155	2q33.1
+SF3B	HGNC:10769	SF3B2	splicing factor 3b subunit 2		SAP145,SF3b1,Cus1,SF3b145	11q13.1
+SF3B	HGNC:10770	SF3B3	splicing factor 3b subunit 3		SAP130,SF3b130,RSE1,KIAA0017	16q22.1
+SF3B	HGNC:10771	SF3B4	splicing factor 3b subunit 4		SAP49,SF3b49,Hsh49	1q21.2
+SF3B	HGNC:21083	SF3B5	splicing factor 3b subunit 5		SF3b10,MGC3133,Ysf3	6q24.2
+SF3B	HGNC:30096	SF3B6	splicing factor 3b subunit 6		P14,SF3B14a,Ht006,CGI-110,SAP14a	2p23.3
+Shelterin	HGNC:25070	ACD	ACD shelterin complex subunit and telomerase recruitment factor		Ptop,Pip1,Tpp1,Tint1	16q22.1
+Shelterin	HGNC:17284	POT1	protection of telomeres 1		hPot1,DKFZp586D211	7q31.33
+Shelterin	HGNC:11728	TERF1	telomeric repeat binding factor 1	TRBF1	PIN2,TRF1,TRF	8q21.11
+Shelterin	HGNC:11729	TERF2	telomeric repeat binding factor 2	TRBF2	TRF2	16q22.1
+Shelterin	HGNC:19246	TERF2IP	TERF2 interacting protein		RAP1	16q23.1
+Shelterin	HGNC:11824	TINF2	TERF1 interacting nuclear factor 2		TIN2	14q12
+SIN3	HGNC:4852	HDAC1	histone deacetylase 1	RPD3L1	HD1,GON-10,KDAC1	1p35.2-p35.1
+SIN3	HGNC:4853	HDAC2	histone deacetylase 2		RPD3,YAF1,KDAC2	6q21
+SIN3	HGNC:9887	RBBP4	RB binding protein 4, chromatin remodeling factor		RbAp48,NURF55,lin-53	1p35.1
+SIN3	HGNC:9890	RBBP7	RB binding protein 7, chromatin remodeling factor		RbAp46	Xp22.2
+SIN3	HGNC:10530	SAP18	Sin3A associated protein 18		SAP18p,2HOR0202,MGC27131	13q12.11
+SIN3	HGNC:10532	SAP30	Sin3A associated protein 30			4q34.1
+SIN3	HGNC:19353	SIN3A	SIN3 transcription regulator family member A		KIAA0700,DKFZP434K2235	15q24.2
+SIN3	HGNC:19354	SIN3B	SIN3 transcription regulator family member B		KIAA0700	19p13.11
+SIN3	HGNC:29545	SUDS3	SDS3 homolog, SIN3A corepressor complex component		SDS3,FLJ00052,SAP45	12q24.23
+SMC5/6	HGNC:29897	NSMCE1	NSE1 homolog, SMC5-SMC6 complex component		NSE1	16p12.1
+SMC5/6	HGNC:26513	NSMCE2	NSE2 (MMS21) homolog, SMC5-SMC6 complex SUMO ligase	C8orf36	FLJ32440,MMS21,NSE2,ZMIZ7	8q24.13
+SMC5/6	HGNC:7677	NSMCE3	NSE3 homolog, SMC5-SMC6 complex component	NDNL2	HCA4,MAGEG1,MAGEL3,NSE3	15q13.1
+SMC5/6	HGNC:25935	NSMCE4A	NSE4 homolog A, SMC5-SMC6 complex component	C10orf86	FLJ20003,bA500G22.3,NSE4A	10q26.13
+SMC5/6	HGNC:20465	SMC5	structural maintenance of chromosomes 5	SMC5L1	KIAA0594	9q21.12
+SMC5/6	HGNC:20466	SMC6	structural maintenance of chromosomes 6	SMC6L1	FLJ22116	2p24.2
+Spliceosomal A	HGNC:24236	CCAR1	cell division cycle and apoptosis regulator 1		FLJ10590,CARP-1,CARP1	10q21.3
+Spliceosomal A	HGNC:16930	CHERP	calcium homeostasis endoplasmic reticulum protein		ERPROT213-21,DAN16	19p13.11
+Spliceosomal A	HGNC:18681	DDX46	DEAD-box helicase 46		KIAA0801,FLJ25329,PRPF5,Prp5	5q31.1
+Spliceosomal A	HGNC:2738	DHX15	DEAH-box helicase 15	DDX15	HRH2,DBP1,PRP43,PrPp43p,PRPF43	4p15.2
+Spliceosomal A	HGNC:5034	HNRNPAB	heterogeneous nuclear ribonucleoprotein A/B	HNRPAB	ABBP1,FLJ40338	5q35.3
+Spliceosomal A	HGNC:5031	HNRNPA1	heterogeneous nuclear ribonucleoprotein A1	HNRPA1	hnRNP-A1,ALS20	12q13.13
+Spliceosomal A	HGNC:16463	PRPF40A	pre-mRNA processing factor 40 homolog A	FNBP3	FLJ20585,FBP11,HYPA,NY-REN-6,HIP10,FBP-11,FLAF1,Prp40	2q23.3
+Spliceosomal A	HGNC:17042	PUF60	poly(U) binding splicing factor 60		FIR,SIAHBP1,RoBPI	8q24.3
+Spliceosomal A	HGNC:9902	RBM5	RNA binding motif protein 5		LUCA15,LUCA-15,H37	3p21.31
+Spliceosomal A	HGNC:9896	RBM10	RNA binding motif protein 10		DXS8237E,KIAA0122,GPATC9,ZRANB5,GPATCH9,S1-1	Xp11.3
+Spliceosomal A	HGNC:16944	RBM17	RNA binding motif protein 17		SPF45,MGC14439	10p15.1
+Spliceosomal A	HGNC:23244	RBM25	RNA binding motif protein 25	RNPC7	S164,fSAP94,NET52,Snu71	14q24.2
+Spliceosomal A	HGNC:12950	SF1	splicing factor 1	ZNF162	ZFM1,ZCCHC25	11q13.1
+Spliceosomal A	HGNC:16900	SMNDC1	survival motor neuron domain containing 1		SPF30,SMNR,TDRD16C	10q25.2
+Spliceosomal A	HGNC:18643	SUGP1	SURP and G-patch domain containing 1	SF4	F23858,DKFZp434E2216,RBP	19p13.11
+Spliceosomal A	HGNC:22964	THRAP3	thyroid hormone receptor associated protein 3		TRAP150,BCLAF2	1p34.3
+Spliceosomal A	HGNC:12453	U2AF1	U2 small nuclear RNA auxiliary factor 1	U2AFBP	U2AF35,RNU2AF1,RN	21q22.3
+Spliceosomal A	HGNC:23156	U2AF2	U2 small nuclear RNA auxiliary factor 2		U2AF65	19q13.42
+Spliceosomal A	HGNC:30855	U2SURP	U2 snRNP associated SURP domain containing		fSAPa,SR140	3q23
+Spliceosomal B	HGNC:29513	AQR	aquarius intron-binding spliceosomal factor		KIAA0560,fSAP164,IBP160	15q14
+Spliceosomal B	HGNC:29629	BUD31	BUD31 homolog	G10	YCR063W,EDG-2,EDG2,fSAP17,Cwc14	7q22.1
+Spliceosomal B	HGNC:15762	CRNKL1	crooked neck pre-mRNA splicing factor 1		CRN,CLF,SYF3,Clf1	20p11.23
+Spliceosomal B	HGNC:2738	DHX15	DEAH-box helicase 15	DDX15	HRH2,DBP1,PRP43,PrPp43p,PRPF43	4p15.2
+Spliceosomal B	HGNC:5958	IK	IK cytokine		RED,RER	5q31.3
+Spliceosomal B	HGNC:29201	ISY1	ISY1 splicing factor homolog		KIAA1160,fSAP33	3q21.3
+Spliceosomal B	HGNC:7032	MFAP1	microfibril associated protein 1		AMP	15q15.3
+Spliceosomal B	HGNC:9258	PPIE	peptidylprolyl isomerase E		CyP-33,MGC3736,MGC111222	1p34.2
+Spliceosomal B	HGNC:9260	PPIL1	peptidylprolyl isomerase like 1		CYPL1	6p21.2
+Spliceosomal B	HGNC:9330	PQBP1	polyglutamine binding protein 1	RENS1,MRXS8,SHS,MRX55,MRX2,MRXS3		Xp11.23
+Spliceosomal B	HGNC:25930	PRPF38A	pre-mRNA processing factor 38A		FLJ14936,Prp38	1p32.3
+Spliceosomal B	HGNC:25503	RBM22	RNA binding motif protein 22		FLJ10290,ZC3H16,fSAP47,Cwc2	5q33.1
+Spliceosomal B	HGNC:18247	SMU1	SMU1 DNA replication regulator and spliceosomal factor		SMU-1,FLJ10805,BWD,fSAP57	9p21.1
+Spliceosomal B	HGNC:16696	SNW1	SNW domain containing 1	SKIIP	NCoA-62,SKIP,Prp45,PRPF45,Bx42,SKIP1,FUN20	14q24.3
+Spliceosomal B	HGNC:17165	TFIP11	tuftelin interacting protein 11		TIP39,DKFZP434B194,Spp382	22q12.1
+Spliceosomal B	HGNC:12739	WBP4	WW domain binding protein 4		FBP21,MGC117310	13q14.11
+Spliceosomal B	HGNC:16461	WBP11	WW domain binding protein 11		NPWBP,SIPP1,PPP1R165,FAP90,CFAP90,BUG13	12p12.3
+Spliceosomal B	HGNC:14089	XAB2	XPA binding protein 2		HCNP,HCRN,SYF1,NTC90	19p13.2
+Spliceosomal B	HGNC:26433	ZMAT2	zinc finger matrin-type 2		FLJ31121,hSNU23,Snu23	5q31.3
+Spliceosomal Bact	HGNC:29513	AQR	aquarius intron-binding spliceosomal factor		KIAA0560,fSAP164,IBP160	15q14
+Spliceosomal Bact	HGNC:29629	BUD31	BUD31 homolog	G10	YCR063W,EDG-2,EDG2,fSAP17,Cwc14	7q22.1
+Spliceosomal Bact	HGNC:28332	CCDC12	coiled-coil domain containing 12		MGC23918	3p21.31
+Spliceosomal Bact	HGNC:17350	CDC40	cell division cycle 40		PRP17,EHB3,PRPF17,FLJ10564	6q21
+Spliceosomal Bact	HGNC:15762	CRNKL1	crooked neck pre-mRNA splicing factor 1		CRN,CLF,SYF3,Clf1	20p11.23
+Spliceosomal Bact	HGNC:29322	CWC22	CWC22 spliceosome associated protein homolog		KIAA1604,EIF4GL,fSAPb,NCM	2q31.3
+Spliceosomal Bact	HGNC:25989	CWC25	CWC25 spliceosome associated protein homolog	CCDC49	FLJ20291	17q12
+Spliceosomal Bact	HGNC:10664	CWC27	CWC27 spliceosome associated cyclophilin	SDCCAG10	NY-CO-10,SDCCAG-10	5q12.3
+Spliceosomal Bact	HGNC:2739	DHX16	DEAH-box helicase 16	DDX16	DBP2,Prp2,PRPF2	6p21.33
+Spliceosomal Bact	HGNC:30858	EFTUD2	elongation factor Tu GTP binding domain containing 2		U5-116KD,Snrp116,Snu114,SNRNP116	17q21.31
+Spliceosomal Bact	HGNC:18683	EIF4A3	eukaryotic translation initiation factor 4A3	DDX48	KIAA0111,EIF4AIII,Fal1	17q25.3
+Spliceosomal Bact	HGNC:24658	GPATCH1	G-patch domain containing 1	GPATC1	ECGP,FLJ10206,FLJ38686	19q13.11
+Spliceosomal Bact	HGNC:30677	GPKOW	G-patch domain and KOW motifs		T54,GPATC5,GPATCH5,Spp2,Mos2	Xp11.23
+Spliceosomal Bact	HGNC:29201	ISY1	ISY1 splicing factor homolog		KIAA1160,fSAP33	3q21.3
+Spliceosomal Bact	HGNC:9258	PPIE	peptidylprolyl isomerase E		CyP-33,MGC3736,MGC111222	1p34.2
+Spliceosomal Bact	HGNC:9260	PPIL1	peptidylprolyl isomerase like 1		CYPL1	6p21.2
+Spliceosomal Bact	HGNC:9261	PPIL2	peptidylprolyl isomerase like 2		UBOX7,CYC4,Cyp-60	22q11.21
+Spliceosomal Bact	HGNC:9343	PRCC	proline rich mitotic checkpoint control factor		RCCP1	1q23.1
+Spliceosomal Bact	HGNC:17340	PRPF8	pre-mRNA processing factor 8	RP13	PRPC8,Prp8,hPrp8,SNRNP220	17p13.3
+Spliceosomal Bact	HGNC:25503	RBM22	RNA binding motif protein 22		FLJ10290,ZC3H16,fSAP47,Cwc2	5q33.1
+Spliceosomal Bact	HGNC:12974	RNF113A	ring finger protein 113A	ZNF183	RNF113,Cwc24	Xq24
+Spliceosomal Bact	HGNC:10211	RNU5A-1	RNA, U5A small nuclear 1	RNU5C,RNU5A	U5A,U5B1	15q22.31
+Spliceosomal Bact	HGNC:10227	RNU6-1	RNA, U6 small nuclear 1	RNU6A	U6,U6-1	15q23
+Spliceosomal Bact	HGNC:10530	SAP18	Sin3A associated protein 18		SAP18p,2HOR0202,MGC27131	13q12.11
+Spliceosomal Bact	HGNC:30857	SNRNP40	small nuclear ribonucleoprotein U5 subunit 40	WDR57	PRP8BP,SPF38,PRPF8BP,HPRP8BP	1p35.2
+Spliceosomal Bact	HGNC:30859	SNRNP200	small nuclear ribonucleoprotein U5 subunit 200	ASCC3L1,RP33	U5-200KD,HELIC2,KIAA0788,BRR2	2q11.2
+Spliceosomal Bact	HGNC:16696	SNW1	SNW domain containing 1	SKIIP	NCoA-62,SKIP,Prp45,PRPF45,Bx42,SKIP1,FUN20	14q24.3
+Spliceosomal Bact	HGNC:14089	XAB2	XPA binding protein 2		HCNP,HCRN,SYF1,NTC90	19p13.2
+Spliceosomal Bact	HGNC:28291	ZNF830	zinc finger protein 830	CCDC16	MGC20398,OMCG1	17q12
+Spliceosomal E	HGNC:13917	DDX39B	DExD-box helicase 39B	BAT1	D6S81E,UAP56	6p21.33
+Spliceosomal E	HGNC:12950	SF1	splicing factor 1	ZNF162	ZFM1,ZCCHC25	11q13.1
+Spliceosomal E	HGNC:12453	U2AF1	U2 small nuclear RNA auxiliary factor 1	U2AFBP	U2AF35,RNU2AF1,RN	21q22.3
+Spliceosomal E	HGNC:23156	U2AF2	U2 small nuclear RNA auxiliary factor 2		U2AF65	19q13.42
+SRCAP	HGNC:24124	ACTL6A	actin like 6A		Actl6,BAF53A,Arp4,Baf53a,INO80K	3q26.33
+SRCAP	HGNC:24025	ACTR6	actin related protein 6		ARP6,FLJ13433	12q23.1
+SRCAP	HGNC:18291	DMAP1	DNA methyltransferase 1 associated protein 1		DNMAP1,FLJ11543,KIAA1425,DNMTAP1,EAF2,MEAF2,SWC4	1p34.1
+SRCAP	HGNC:10474	RUVBL1	RuvB like AAA ATPase 1		TIP49,NMP238,RVB1,TIP49a,Pontin52,ECP54,TIH1,Rvb1,INO80H	3q21.3
+SRCAP	HGNC:10475	RUVBL2	RuvB like AAA ATPase 2		RVB2,TIP48,TIP49b,Reptin52,ECP51,TIH2,INO80J,Rvb2	19q13.33
+SRCAP	HGNC:16974	SRCAP	Snf2 related CREBBP activator protein		KIAA0309,EAF1,SWR1,DOMO1	16p11.2
+SRCAP	HGNC:11644	VPS72	vacuolar protein sorting 72 homolog	TCFL1	YL-1,YL1,Swc2	1q21.3
+SRCAP	HGNC:24859	YEATS4	YEATS domain containing 4		NuBI-1,GAS41,YAF9	12q15
+SRCAP	HGNC:21688	ZNHIT1	zinc finger HIT-type containing 1	ZNFN4A1	CG1I,H_DJ0747G18.14	7q22.1
+STRIPAK	HGNC:15679	CTTNBP2	cortactin binding protein 2	CORTBP2,C7orf8	KIAA1758,Orf4	7q31.31
+STRIPAK	HGNC:25330	CTTNBP2NL	CTTNBP2 N-terminal like		DKFZp547A023	1p13.2
+STRIPAK	HGNC:23098	FGFR1OP2	FGFR1 oncogene partner 2		DKFZp564O1863	12p11.23
+STRIPAK	HGNC:17565	MINK1	misshapen like kinase 1		B55,MINK,ZC3,MAP4K6,YSK2	17p13.2
+STRIPAK	HGNC:17261	MOB4	MOB family member 4, phocein	PREI3,MOBKL3	MOB3,DKFZP564M112,CGI-95,2C4D,PHOCN	2q33.1
+STRIPAK	HGNC:8761	PDCD10	programmed cell death 10	CCM3	TFAR15	3q26.1
+STRIPAK	HGNC:9299	PPP2CA	protein phosphatase 2 catalytic subunit alpha		PP2Calpha,PP2AC	5q31.1
+STRIPAK	HGNC:9300	PPP2CB	protein phosphatase 2 catalytic subunit beta		PP2Abeta	8p12
+STRIPAK	HGNC:9302	PPP2R1A	protein phosphatase 2 scaffold subunit Aalpha		PR65A,PP2A-Aalpha,PP2AA	19q13.41
+STRIPAK	HGNC:9303	PPP2R1B	protein phosphatase 2 scaffold subunit Abeta		PR65B,PP2A-Abeta	11q23.1
+STRIPAK	HGNC:26119	SIKE1	suppressor of IKBKE 1		FLJ21168,SIKE	1p13.2
+STRIPAK	HGNC:16643	SLMAP	sarcolemma associated protein		SLAP,KIAA1601	3p14.3
+STRIPAK	HGNC:11403	STK24	serine/threonine kinase 24		MST-3,MST3,MST3B,STK3,STE20	13q32.2
+STRIPAK	HGNC:11404	STK25	serine/threonine kinase 25		SOK1,YSK1	2q37.3
+STRIPAK	HGNC:18174	STK26	serine/threonine kinase 26		MST4,MASK	Xq26.2
+STRIPAK	HGNC:25916	STRIP1	striatin interacting protein 1	FAM40A	FLJ14743,KIAA1761,FAR11A	1p13.3
+STRIPAK	HGNC:22209	STRIP2	striatin interacting protein 2	FAM40B	KIAA1170,FAR11B	7q32.1
+STRIPAK	HGNC:11424	STRN	striatin		PPP2R6A,STRN1	2p22.2
+STRIPAK	HGNC:15720	STRN3	striatin 3		SG2NA,PPP2R6B,S/G2NA	14q12
+STRIPAK	HGNC:15721	STRN4	striatin 4		ZIN,PPP2R6C	19q13.32
+SURF	HGNC:16719	DHX34	DExH-box helicase 34	DDX34	KIAA0134	19q13.32
+SURF	HGNC:3477	ETF1	eukaryotic translation termination factor 1	SUP45L1,ERF1,ERF	eRF1,TB3-1,RF1	5q31.2
+SURF	HGNC:4621	GSPT1	G1 to S phase transition 1		GST1,ETF3A,eRF3a	16p13.13
+SURF	HGNC:4622	GSPT2	G1 to S phase transition 2		eRF3b,FLJ10441	Xp11.22
+SURF	HGNC:9962	UPF1	UPF1 RNA helicase and ATPase	RENT1	HUPF1,KIAA0221,NORF1,pNORF1,smg-2	19p13.11
+SWC	HGNC:28337	C9orf72	C9orf72-SMCR8 complex subunit		MGC23980,DENNL72,DENND9	9p21.2
+SWC	HGNC:17921	SMCR8	SMCR8-C9orf72 complex subunit		FLJ34716,DENND8A	17p11.2
+SWC	HGNC:25601	WDR41	WD repeat domain 41		FLJ10904	5q13.3-q14.1
+TFIID	HGNC:11535	TAF1	TATA-box binding protein associated factor 1	TAF2A,BA2R,CCG1,CCGS,DYT3	NSCL2,TAFII250,KAT4,DYT3/TAF1	Xq13.1
+TFIID	HGNC:11536	TAF2	TATA-box binding protein associated factor 2	TAF2B	TAFII150,CIF150	8q24.12
+TFIID	HGNC:17303	TAF3	TATA-box binding protein associated factor 3		TAF140,TAFII140	10p14
+TFIID	HGNC:11537	TAF4	TATA-box binding protein associated factor 4	TAF4A,TAF2C1,TAF2C	TAFII130,TAFII135	20q13.33
+TFIID	HGNC:11539	TAF5	TATA-box binding protein associated factor 5	TAF2D	TAFII100	10q24.33
+TFIID	HGNC:11540	TAF6	TATA-box binding protein associated factor 6	TAF2E	TAFII70,TAFII80,MGC:8964,TAFII85	7q22.1
+TFIID	HGNC:11541	TAF7	TATA-box binding protein associated factor 7	TAF2F	TAFII55	5q31.3
+TFIID	HGNC:17300	TAF8	TATA-box binding protein associated factor 8	TBN	FLJ32821,TAF(II)43	6p21.1
+TFIID	HGNC:11542	TAF9	TATA-box binding protein associated factor 9	TAF2G	TAFII31,TAFII32,TAFIID32,MGC5067,CGI-137,MGC1603,MGC3647,AD-004	5q13.2
+TFIID	HGNC:11543	TAF10	TATA-box binding protein associated factor 10	TAF2H,TAF2A	TAFII30	11p15.4
+TFIID	HGNC:11544	TAF11	TATA-box binding protein associated factor 11	TAF2I	TAFII28	6p21.31
+TFIID	HGNC:11545	TAF12	TATA-box binding protein associated factor 12	TAF2J	TAFII20	1p35.3
+TFIID	HGNC:11546	TAF13	TATA-box binding protein associated factor 13	TAF2K	TAFII18	1p13.3
+TFIID	HGNC:11588	TBP	TATA-box binding protein	GTF2D1,SCA17	TFIID	6q27
+TFIIIB	HGNC:13652	BDP1	B double prime 1, subunit of RNA polymerase III transcription initiation factor IIIB	TFNR,TAF3B1	TFIIIB150,TFC5,TFIIIB90,KIAA1689,HSA238520,KIAA1241	5q13.2
+TFIIIB	HGNC:11551	BRF1	BRF1 RNA polymerase III transcription initiation factor subunit	TAF3B2,TAF3C,GTF3B	TFIIIB90,BRF,hBRF	14q32.33
+TFIIIB	HGNC:11588	TBP	TATA-box binding protein	GTF2D1,SCA17	TFIID	6q27
+TIM22	HGNC:11819	TIMM9	translocase of inner mitochondrial membrane 9		TIM9A	14q23.1
+TIM22	HGNC:11814	TIMM10	translocase of inner mitochondrial membrane 10		TIM10,TIM10A,TIMM10A	11q12.1
+TIM22	HGNC:4022	TIMM10B	translocase of inner mitochondrial membrane 10B	FXC1	Tim9b,TIM10B	11p15.4
+TIM22	HGNC:17317	TIMM22	translocase of inner mitochondrial membrane 22	TEX4	TIM22	17p13
+TIM22	HGNC:25152	TIMM29	translocase of inner mitochondrial membrane 29	C19orf52	TIM29	19p13.2
+TIM23	HGNC:30528	DNAJC19	DnaJ heat shock protein family (Hsp40) member C19		TIMM14,Tim14,Pam18	3q26.33
+TIM23	HGNC:19696	GRPEL1	GrpE like 1, mitochondrial		FLJ25609,GrpE,hMGE	4p16.1
+TIM23	HGNC:5232	HSPA1A	heat shock protein family A (Hsp70) member 1A	HSPA1	HSP70-1	6p21.33
+TIM23	HGNC:5233	HSPA1B	heat shock protein family A (Hsp70) member 1B		HSP70-2	6p21.33
+TIM23	HGNC:5234	HSPA1L	heat shock protein family A (Hsp70) member 1 like		HSP70-HOM,hum70t	6p21.33
+TIM23	HGNC:29679	PAM16	presequence translocase associated motor 16		Magmas,Tim16,TIMM16	16p13.3
+TIM23	HGNC:17315	TIMM17A	translocase of inner mitochondrial membrane 17A		TIM17,TIM17A	1q32.1
+TIM23	HGNC:17310	TIMM17B	translocase of inner mitochondrial membrane 17B		DXS9822,JM3	Xp11.23
+TIM23	HGNC:25010	TIMM21	translocase of inner mitochondrial membrane 21	C18orf55	HSPC154,TIM21	18q22.3
+TIM23	HGNC:17312	TIMM23	translocase of inner mitochondrial membrane 23		TIM23	10q11.22
+TIM23	HGNC:23581	TIMM23B	translocase of inner mitochondrial membrane 23 homolog B		bA592B15.7	10q11.23
+TIM23	HGNC:17316	TIMM44	translocase of inner mitochondrial membrane 44		TIM44	19p13.2
+TREX2	HGNC:1867	CETN2	centrin 2	CALT	CEN2	Xq28
+TREX2	HGNC:24449	ENY2	ENY2 transcription and export complex 2 subunit		DC6,FLJ20480,Sus1	8q23.1
+TREX2	HGNC:6946	MCM3AP	minichromosome maintenance complex component 3 associated protein		Map80,KIAA0572,GANP,SAC3	21q22.3
+TREX2	HGNC:25653	PCID2	PCI domain containing 2		FLJ11305	13q34
+TREX2	HGNC:10845	SEM1	SEM1 26S proteasome complex subunit	SHFD1,SHFM1,C7orf76	DSS1,Shfdg1,ECD,SHSF1,FLJ42280	7q21.3
+tRNASL	HGNC:28772	C2orf49	chromosome 2 open reading frame 49		MGC5509,asw	2q12.2
+tRNASL	HGNC:23169	RTRAF	RNA transcription, translation and transport factor	C14orf166	CGI-99,RLLM1,CLE,CLE7,LCRP369,hCLE1	14q22.1
+tRNASL	HGNC:2734	DDX1	DEAD-box helicase 1		DBP-RB	2p24.3
+tRNASL	HGNC:24520	FAM98A	family with sequence similarity 98 member A		DKFZP564F0522	2p22.3
+tRNASL	HGNC:26773	FAM98B	family with sequence similarity 98 member B		FLJ38426	15q14
+tRNASL	HGNC:26935	RTCB	RNA 2',3'-cyclic phosphate and 5'-OH ligase	C22orf28	HSPC117,FAAP	22q12.3
+tRNASL	HGNC:24094	ZBTB8OS	zinc finger and BTB domain containing 8 opposite strand		ARCH	1p35.1
+UTPa	HGNC:1983	UTP4	UTP4 small subunit processome component	CIRH1A	NAIC,FLJ14728,KIAA1988,TEX292,CIRHIN	16q22.1
+UTPa	HGNC:28945	WDR43	WD repeat domain 43		KIAA0007,NET12,UTP5	2p23.2
+UTPa	HGNC:24557	NOL11	nucleolar protein 11		DKFZP586L0724	17q24.2
+UTPa	HGNC:25517	HEATR1	HEAT repeat containing 1		FLJ10359,BAP28,UTP10	1q43
+UTPa	HGNC:25758	UTP15	UTP15 small subunit processome component		FLJ12787,NET21,FLJ23637	5q13.2
+UTPa	HGNC:25725	WDR75	WD repeat domain 75		FLJ12519,NET16,UTP17	2q32.2
+UTPb	HGNC:9711	PWP2	PWP2 small subunit processome component	PWP2H	EHOC-17,UTP1	21q22.3
+UTPb	HGNC:18279	UTP6	UTP6 small subunit processome component	C17orf40	HCA66	17q11.2
+UTPb	HGNC:12755	WDR3	WD repeat domain 3		FLJ12796,UTP12,DIP2	1p12
+UTPb	HGNC:11587	TBL3	transducin beta like 3		SAZD,UTP13	16p13.3
+UTPb	HGNC:24274	UTP18	UTP18 small subunit processome component	WDR50	CGI-48	17q21.33
+UTPb	HGNC:30696	WDR36	WD repeat domain 36	GLC1G	TA-WDRP,UTP21	5q22.1
+UTPc	HGNC:19910	NOL6	nucleolar protein 6		bA311H10.1,Nrap,FLJ21959,MGC14896,MGC14921,MGC20838,UTP22	9p13.3
+UTPc	HGNC:24286	RRP7A	ribosomal RNA processing 7 homolog A		CGI-96,Rrp7	22q13.2
+WntE	HGNC:1008	BCL9	BCL9 transcription coactivator			1q21.2
+WntE	HGNC:23688	BCL9L	BCL9 like		DLNB11,B9L,Bcl9-2	11q23.3
+WntE	HGNC:2514	CTNNB1	catenin beta 1	CTNNB	beta-catenin,armadillo	3p22.1
+WntE	HGNC:6532	LDB1	LIM domain binding 1		NLI,CLIM2	10q24.32
+WntE	HGNC:6533	LDB2	LIM domain binding 2		CLIM1,LDB1	4p15.32
+WntE	HGNC:6551	LEF1	lymphoid enhancer binding factor 1		TCF1ALPHA,TCF10,TCF7L3	4q25
+WntE	HGNC:30256	PYGO1	pygopus family PHD finger 1			15q21.3
+WntE	HGNC:30257	PYGO2	pygopus family PHD finger 2			1q21.3
+WntE	HGNC:15831	SSBP2	single stranded DNA binding protein 2		HSPC116	5q14.1
+WntE	HGNC:15674	SSBP3	single stranded DNA binding protein 3		CSDP,SSDP,FLJ10355,SSDP1	1p32.3
+WntE	HGNC:15676	SSBP4	single stranded DNA binding protein 4			19p13.11
+WntE	HGNC:11639	TCF7	transcription factor 7		TCF-1	5q31.1
+WntE	HGNC:11640	TCF7L1	transcription factor 7 like 1	TCF3		2p11.2
+WntE	HGNC:11641	TCF7L2	transcription factor 7 like 2	TCF4	TCF-4	10q25.2-q25.3
+WntE	HGNC:11837	TLE1	TLE family member 1, transcriptional corepressor		ESG1,GRG1,ESG	9q21.32
+WntE	HGNC:11838	TLE2	TLE family member 2, transcriptional corepressor		ESG2,GRG2,ESG,FLJ41188	19p13.3
+WntE	HGNC:11839	TLE3	TLE family member 3, transcriptional corepressor		ESG,ESG3,KIAA1547,HsT18976,GRG3	15q23
+WntE	HGNC:11840	TLE4	TLE family member 4, transcriptional corepressor		E(spl),ESG,GRG4	9q21.31
+WRAD	HGNC:744	ASH2L	ASH2 like, histone lysine methyltransferase complex subunit	ASH2L1	ASH2L2,ASH2,Bre2	8p11.23
+WRAD	HGNC:24590	DPY30	dpy-30 histone methyltransferase complex regulatory subunit		Saf19,HDPY-30,Cps25	2p22.3
+WRAD	HGNC:9888	RBBP5	RB binding protein 5, histone lysine methyltransferase complex subunit		RBQ3,SWD1	1q32.1
+WRAD	HGNC:12757	WDR5	WD repeat domain 5		SWD3,CFAP89	9q34.2
+WTAP	HGNC:16863	BCLAF1	BCL2 associated transcription factor 1		KIAA0164,BTF	6q23.3
+WTAP	HGNC:21225	CBLL1	Cbl proto-oncogene like 1		HAKAI,FLJ23109,RNF188	7q22.3
+WTAP	HGNC:24500	VIRMA	vir like m6A methyltransferase associated	KIAA1429	DKFZP434I116,fSAP121	8q22.1
+WTAP	HGNC:14959	RBM15	RNA binding motif protein 15		OTT,OTT1	1p13.3
+WTAP	HGNC:22964	THRAP3	thyroid hormone receptor associated protein 3		TRAP150,BCLAF2	1p34.3
+WTAP	HGNC:16846	WTAP	WT1 associated protein		KIAA0105,MGC3925,Mum2	6q25.3
+WTAP	HGNC:20368	ZC3H13	zinc finger CCCH-type containing 13	KIAA0853	DKFZp434D1812,Xio	13q14.13
