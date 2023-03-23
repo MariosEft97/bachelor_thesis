@@ -1,0 +1,8 @@
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Eftychiou
+    given-names: Marios
+    orcid: https://orcid.org/0000-0002-5929-6956
+title: "Computational Analysis of virus-host protein interactions: a case study of HPV16 E7 oncogene and human POU5F1 transcription factor"
+version: 2.5.0
+date-released: 2023-03-23
