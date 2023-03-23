@@ -570,3 +570,203 @@ def common_interactor_network(df: pd.DataFrame) -> None:
         return(None)
     
 # ----------------------------------------------------------------------------------------------------
+
+def interaction_network(protein_a_df: pd.DataFrame, protein_b_df: pd.DataFrame, common_interactors_df: pd.DataFrame) -> None:
+    
+    """
+    The function takes as arguments the DataFrame objects returned from calculator() function and visualizes
+    the interaction network using plotly and networkx.
+
+    Parameters:
+        protein_a_df (pd.DataFrame): data structure returned from calculator() function
+        protein_b_df (pd.DataFrame): data structure returned from calculator() function
+        common_interactors_df (pd.DataFrame): data structure returned from common_interactors() function
+
+    Returns:
+        None
+
+    """
+    
+    if not isinstance(protein_a_df, pd.DataFrame):
+        raise TypeError("protein_a_df must be specified as a pandas DataFrame")
+    
+    elif not isinstance(protein_b_df, pd.DataFrame):
+        raise TypeError("protein_b_df must be specified as a pandas DataFrame")
+    
+    elif not isinstance(common_interactors_df, pd.DataFrame):
+        raise TypeError("common_interactors_df must be specified as a pandas DataFrame")
+    
+    else:
+        
+        concatenated_df = pd.concat([protein_a_df, protein_b_df], axis=0)
+        
+        source_nodes = list(concatenated_df["Source"])
+        target_nodes = list(concatenated_df["Target"])
+        unique_nodes = pd.Series(source_nodes+target_nodes).drop_duplicates().tolist()
+        weights = list(concatenated_df["Weight"])
+        interactions = list(concatenated_df["Interaction"])
+        oct4_targets = list(protein_a_df["Target"].unique())
+        e7_targets = list(protein_b_df["Target"].unique())
+        common_interactors = pd.Series(common_interactors_df["Target"]).drop_duplicates().tolist()
+
+        G = nx.Graph()
+
+        # add network nodes
+        G.add_nodes_from(unique_nodes)
+
+        # add network weighted edges
+        weighted_edges = [(source, target, weight) for source, target, weight in zip(source_nodes, target_nodes, weights)]
+        G.add_weighted_edges_from(weighted_edges)
+
+        # positions for all nodes - seed for reproducibility
+        pos = nx.random_layout(G, seed=0)
+
+        edge_x = []
+        edge_y = []
+
+        for edge in G.edges():
+            x0, y0 = pos[edge[0]]
+            x1, y1 = pos[edge[1]]
+            edge_x.append(x0)
+            edge_x.append(x1)
+            edge_x.append(None)
+            edge_y.append(y0)
+            edge_y.append(y1)
+            edge_y.append(None)
+
+        edge_trace = go.Scatter(
+            x=edge_x,
+            y=edge_y,
+            name="Interactions",
+            line=dict(width=0.5, color="#888"),
+            hoverinfo='text',
+            mode='lines'
+        )
+
+        node_x = []
+        node_y = []
+        for node in G.nodes():
+            x, y = pos[node]
+            node_x.append(x)
+            node_y.append(y)
+
+        node_trace = go.Scatter(
+            x=node_x,
+            y=node_y,
+            name="POU5F1 / E7",
+            mode='markers',
+            hoverinfo='text',
+            marker=dict(color=[], size=20))
+
+        node_adjacencies = []
+        node_text = []
+        node_color = []
+
+
+        for node, adjacencies in zip(G.nodes, G.adjacency()):
+            node_adjacencies.append(len(adjacencies[1]))
+            node_text.append(node+", "+str(len(adjacencies[1]))+" interactors")
+
+            if node == "POU5F1" or node == "E7":
+                node_color.append("#ffffd9")
+            elif node in common_interactors:
+                node_color.append("#7fcdbb")
+            elif node in oct4_targets:
+                node_color.append("#1d91c0")
+            elif node in e7_targets:
+                node_color.append("#081d58")
+
+        # aliceblue, antiquewhite, aqua, aquamarine, azure,
+        # beige, bisque, black, blanchedalmond, blue,
+        # blueviolet, brown, burlywood, cadetblue,
+        # chartreuse, chocolate, coral, cornflowerblue,
+        # cornsilk, crimson, cyan, darkblue, darkcyan,
+        # darkgoldenrod, darkgray, darkgrey, darkgreen,
+        # darkkhaki, darkmagenta, darkolivegreen, darkorange,
+        # darkorchid, darkred, darksalmon, darkseagreen,
+        # darkslateblue, darkslategray, darkslategrey,
+        # darkturquoise, darkviolet, deeppink, deepskyblue,
+        # dimgray, dimgrey, dodgerblue, firebrick,
+        # floralwhite, forestgreen, fuchsia, gainsboro,
+        # ghostwhite, gold, goldenrod, gray, grey, green,
+        # greenyellow, honeydew, hotpink, indianred, indigo,
+        # ivory, khaki, lavender, lavenderblush, lawngreen,
+        # lemonchiffon, lightblue, lightcoral, lightcyan,
+        # lightgoldenrodyellow, lightgray, lightgrey,
+        # lightgreen, lightpink, lightsalmon, lightseagreen,
+        # lightskyblue, lightslategray, lightslategrey,
+        # lightsteelblue, lightyellow, lime, limegreen,
+        # linen, magenta, maroon, mediumaquamarine,
+        # mediumblue, mediumorchid, mediumpurple,
+        # mediumseagreen, mediumslateblue, mediumspringgreen,
+        # mediumturquoise, mediumvioletred, midnightblue,
+        # mintcream, mistyrose, moccasin, navajowhite, navy,
+        # oldlace, olive, olivedrab, orange, orangered,
+        # orchid, palegoldenrod, palegreen, paleturquoise,
+        # palevioletred, papayawhip, peachpuff, peru, pink,
+        # plum, powderblue, purple, red, rosybrown,
+        # royalblue, rebeccapurple, saddlebrown, salmon,
+        # sandybrown, seagreen, seashell, sienna, silver,
+        # skyblue, slateblue, slategray, slategrey, snow,
+        # springgreen, steelblue, tan, teal, thistle, tomato,
+        # turquoise, violet, wheat, white, whitesmoke,
+        # yellow, yellowgreen
+
+        node_trace.marker.color = node_color
+        node_trace.text = node_text
+
+        edge_dash = ""
+        edge_text = []
+        for edge in (G.edges(data=True)):
+            edge_text.append(edge[2]["weight"])
+            if 0 <= edge[2]["weight"] < 0.33:
+                edge_dash += "5px "
+            elif 0.33 <= edge[2]["weight"] < 0.66:
+                edge_dash += "5px "
+            elif edge[2]["weight"] >= 0.66:
+                edge_dash += "5px "
+
+        # edge_trace.line.dash = edge_dash.rstrip()
+        edge_trace.text = edge_text
+
+        ci = go.Scatter(
+            x=[None],
+            y=[None],
+            mode="markers",
+            name="Common Interactors",
+            marker=dict(size=20, color="#7fcdbb", symbol='circle'),
+        )
+
+        pou5f1 = go.Scatter(
+            x=[None],
+            y=[None],
+            mode="markers",
+            name="POU5F1 Interactors",
+            marker=dict(size=20, color="#1d91c0", symbol='circle'),
+        )
+
+        e7 = go.Scatter(
+            x=[None],
+            y=[None],
+            mode="markers",
+            name="E7 Interactors",
+            marker=dict(size=20, color="#081d58", symbol='circle'),
+        )
+
+
+        fig = go.Figure(data=[edge_trace, node_trace, ci, pou5f1, e7],
+             layout=go.Layout(
+                title='<br>POU5F1 & E7 PPI network',
+                titlefont_size=16,
+                showlegend=True,
+                hovermode='closest',
+                margin=dict(b=20,l=5,r=5,t=40),
+                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
+                )
+
+        fig.show(renderer="colab")
+        
+        return(None)
+    
+# ----------------------------------------------------------------------------------------------------
