@@ -18,5 +18,4 @@ Researched and implemented a Python pipeline for the analysis of in-house and pu
 - Reads the PPI, ChIP-Atlas and TCGA input datafiles.
 - Returns an appropriate data structure for each input file.
 - Compares them and returns the predicted gene targets.
-- Visualizes results in Cytoscape platform.
 
