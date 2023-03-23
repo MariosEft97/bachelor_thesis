@@ -1,4 +1,10 @@
 import pandas as pd
+import plotly.graph_objects as go
+import networkx as nx
+import matplotlib.pyplot as plt
+from itertools import zip_longest
+import plotly.io as pio
+pio.renderers.default = 'colab'
 
 # ----------------------------------------------------------------------------------------------------
 
@@ -428,5 +434,139 @@ def common_interactors(protein_a_df: pd.DataFrame, protein_b_df: pd.DataFrame) -
         df.index += 1
 
         return(df)
+    
+# ----------------------------------------------------------------------------------------------------
+
+def common_interactor_network(df: pd.DataFrame) -> None:
+    
+    """
+    The function takes as arguments the DataFrame objects returned from common_interactors() function
+    and visualizes the network using plotly and networkx.
+
+    Parameters:
+        df (pd.DataFrame): data structure returned from common_interactors() function
+
+    Returns:
+        None
+
+    """
+    
+    if not isinstance(df, pd.DataFrame):
+        raise TypeError("df must be specified as a pandas DataFrame")
+    
+    else:
+        
+        source_nodes = list(df["Source"])
+        target_nodes = list(df["Target"])
+        unique_nodes = pd.Series(source_nodes+target_nodes).drop_duplicates().tolist()
+        weights = list(df["Weight"])
+        interactions = list(df["Interaction"])
+    
+        G = nx.Graph()
+        
+        # add network nodes
+        G.add_nodes_from(unique_nodes)
+        
+        # add network weighted edges
+        weighted_edges = [(source, target, weight) for source, target, weight in zip(source_nodes, target_nodes, weights)]
+        G.add_weighted_edges_from(weighted_edges)
+        
+        # positions for all nodes - seed for reproducibility
+        pos = nx.spring_layout(G, seed=0)
+        
+        edge_x = []
+        edge_y = []
+
+        for edge in G.edges():
+            x0, y0 = pos[edge[0]]
+            x1, y1 = pos[edge[1]]
+            edge_x.append(x0)
+            edge_x.append(x1)
+            edge_x.append(None)
+            edge_y.append(y0)
+            edge_y.append(y1)
+            edge_y.append(None)
+
+        edge_trace = go.Scatter(
+            x=edge_x, y=edge_y,
+            line=dict(width=0.5),
+            hoverinfo='text',
+            mode='lines'
+        )
+
+        node_x = []
+        node_y = []
+        for node in G.nodes():
+            x, y = pos[node]
+            node_x.append(x)
+            node_y.append(y)
+
+        node_trace = go.Scatter(
+            x=node_x,
+            y=node_y,
+            mode='markers',
+            hoverinfo='text',
+            marker=dict(showscale=True, colorscale='YlGnBu', reversescale=True, color=[], size=20,
+                        colorbar=dict(thickness=15, title='Protein Interactors', xanchor='left', titleside='right'), line_width=2))
+        
+        node_adjacencies = []
+        node_text = []
+
+
+        for node, adjacencies in zip(G.nodes, G.adjacency()):
+            node_adjacencies.append(len(adjacencies[1]))
+            # node_text.append(node+", "+str(len(adjacencies[1]))+" interactors")
+
+        pou5f1_interactions = {}
+        e7_interactions = {}
+
+        for edge in G.edges(data=True):
+            if edge[0] == "POU5F1" and edge[1] == "E7":
+                e7_interactions.update({edge[0]: edge[2]["weight"]})
+
+        for edge in G.edges(data=True):
+            if edge[0] == "POU5F1":
+                pou5f1_interactions.update({edge[1]: edge[2]["weight"]})
+            elif edge[0] == "E7":
+                e7_interactions.update({edge[1]: edge[2]["weight"]})
+
+        sorted_pou5f1_interactions = sorted(pou5f1_interactions.items(), key=lambda pair: list(G.nodes).index(pair[0]))
+        sorted_e7_interactions = sorted(e7_interactions.items(), key=lambda pair: list(G.nodes).index(pair[0]))
+
+        for node, pou5f1_node, e7_node in zip(list(G.nodes()), sorted_pou5f1_interactions, sorted_e7_interactions):
+            node_text.append(f"{pou5f1_node[0]} --- POU5F1: {str(pou5f1_node[1])}<br>{e7_node[0]} --- E7: {str(e7_node[1])}")
+
+        node_trace.marker.color = node_adjacencies
+        node_trace.text = node_text
+        
+        edge_dash = ""
+        edge_text = []
+        for edge in (G.edges(data=True)):
+            edge_text.append(edge[2]["weight"])
+            if 0 <= edge[2]["weight"] < 0.33:
+                edge_dash += "5px "
+            elif 0.33 <= edge[2]["weight"] < 0.66:
+                edge_dash += "5px "
+            elif edge[2]["weight"] >= 0.66:
+                edge_dash += "5px "
+
+        # edge_trace.line.dash = edge_dash.rstrip()
+        edge_trace.text = edge_text
+        
+        
+        fig = go.Figure(data=[edge_trace, node_trace],
+             layout=go.Layout(
+                title='<br>POU5F1 & E7 common protein interactors',
+                titlefont_size=16,
+                showlegend=False,
+                hovermode='closest',
+                margin=dict(b=20,l=5,r=5,t=40),
+                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
+                )
+        
+        fig.show(renderer="colab")
+        
+        return(None)
     
 # ----------------------------------------------------------------------------------------------------
