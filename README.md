@@ -7,10 +7,7 @@ Researched and implemented a Python pipeline for the analysis of in-house and pu
 - Reads the input PPI datafiles and returns an appropriate data structure.
 - Calculates an interaction score based on IntAct Database scoring method.
 - Extracts the common interactors of the input datafiles.
-- Automatically visualizes the PPI networks in Cytoscape platform.
-- Utilizes stringApp to perform functional enrichment analysis.
-- Utilizes stringApp to expand the networks.
-- Outputs results in tsv files.
+- Visualizes the PPI networks.
 
 *ComplexFinder.py*
 - Reads the PPI datafiles and returns an appropriate data structure.
