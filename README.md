@@ -4,18 +4,18 @@
 Researched and implemented a Python pipeline for the analysis of in-house and publicly available genomics and proteomics data. Regulatory and protein interaction networks were constructed and visualized using Plotly and NetworkX packages to extract information about a protein complexes.
 
 *CytoNet.ipynb & CytoNet.py*
-- Reads the input PPI datafiles and returns an appropriate data structure.
-- Calculates an interaction score based on IntAct Database scoring method.
-- Extracts the common interactors of the input datafiles.
-- Visualizes the PPI networks using plotly and networkx.
+- Read the input PPI datafiles and returns an appropriate data structure.
+- Calculate an interaction score based on IntAct Database scoring method.
+- Extract the common interactors of the input datafiles.
+- Visualize the PPI networks using plotly and networkx.
 
 *ComplexFinder.ipynb & ComplexFinder.py*
-- Reads the PPI datafiles and returns an appropriate data structure.
-- Reads the HGNC datafiles and returns an appropriate datastructure.
-- Compares them and visualizes the results as bar charts.
+- Read the PPI datafiles and return appropriate data structures.
+- Read the HGNC datafiles and return appropriate datastructures.
+- Compare data and visualize the results as bar charts using matplotlib.
 
 *ChIPNet.ipynb & ChIPNet.py*
-- Reads the PPI, ChIP-Atlas and TCGA input datafiles.
-- Returns an appropriate data structure for each input file.
-- Compares them and returns the predicted gene targets.
+- Read the PPI, ChIP-Atlas and TCGA input datafiles.
+- Return an appropriate data structure for each input file.
+- Compare data and return the predicted gene targets.
 
