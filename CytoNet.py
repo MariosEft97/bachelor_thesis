@@ -317,6 +317,7 @@ def calculator(datatable: list, protein: str) -> pd.DataFrame:
         for pair,score in interactions.items():
             if pair[1] in prot_occurance.keys():
                 score = score + prot_publication[pair[1]] # + prot_methods[pair[1]]
+                # print(prot_publication[pair[1]])
                 finalpairscores.append(score)
 
         # final scores are normalized to 0-1 range (Min-Max methodology)
@@ -366,11 +367,11 @@ def calculator(datatable: list, protein: str) -> pd.DataFrame:
 
             # For each interaction score an affinity indication is devised.
             for score in normalized:
-                if score < 0.166:
+                if score < 0.333:
                     interaction_indication.append('Weak')
-                if score >= 0.166 and score < 0.332:
+                if score >= 0.333 and score < 0.666:
                     interaction_indication.append('Medium')
-                if score >= 0.498:
+                if score >= 0.666:
                     interaction_indication.append('Strong')
 
 
